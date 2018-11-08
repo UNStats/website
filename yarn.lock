@@ -909,8 +909,10 @@
   resolved "https://registry.yarnpkg.com/@types/tmp/-/tmp-0.0.32.tgz#0d3cb31022f8427ea58c008af32b80da126ca4e3"
   integrity sha1-DTyzECL4Qn6ljACK8yuA2hJspOM=
 
-"@undataforum/components@file:.yalc/@undataforum/components":
-  version "0.18.0-4d3329b4"
+"@undataforum/components@^0.19.0":
+  version "0.19.0"
+  resolved "https://registry.yarnpkg.com/@undataforum/components/-/components-0.19.0.tgz#742f8d0c0cb1247707d5c431cf2e80238231786d"
+  integrity sha512-V7l6MjrR7Z927UkCthm/UDNGYTOWOEnmYZjREPP8P00RLElOU7RBdjHSePYswll24I6Xp8/b85BGyRrKlDJkOw==
   dependencies:
     polished "^2.0.2"
     prop-types "^15.6.2"
