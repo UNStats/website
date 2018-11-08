@@ -1,0 +1,47 @@
+{
+  "private": true,
+  "name": "@undataforum/website",
+  "description": "Main UN Data Forum website.",
+  "version": "0.0.0",
+  "author": {
+    "name": "Thilo Maier",
+    "email": "maier@un.org"
+  },
+  "homepage": "https://www.undataforum.org",
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "start": "gatsby develop",
+    "build": "rm -rf ./public && gatsby build",
+    "format": "pretty-quick",
+    "inspect": "node --inspect-brk node_modules/.bin/gatsby develop",
+    "lint": "eslint --ext .jsx,.js --ignore-path .gitignore .",
+    "precommit": "npm run lint && pretty-quick --staged"
+  },
+  "dependencies": {
+    "@undataforum/components": "file:.yalc/@undataforum/components",
+    "gatsby": "^2.0.0-beta.61",
+    "gatsby-image": "^2.0.19",
+    "gatsby-plugin-react-helmet": "^3.0.0-beta.4",
+    "gatsby-plugin-sharp": "^2.0.10",
+    "gatsby-remark-autolink-headers": "^2.0.9",
+    "gatsby-remark-smartypants": "^2.0.6",
+    "gatsby-source-filesystem": "^2.0.1-beta.10",
+    "gatsby-transformer-remark": "^2.1.11",
+    "gatsby-transformer-sharp": "^2.1.7",
+    "prop-types": "^15.6.2",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-helmet": "^5.2.0",
+    "rehype-react": "^3.0.3"
+  },
+  "devDependencies": {
+    "@mdotasia/eslint-config": "^0.5.0",
+    "eslint": "^5.8.0",
+    "husky": "^1.1.2",
+    "prettier": "^1.11.1",
+    "pretty-quick": "^1.4.1"
+  }
+}
