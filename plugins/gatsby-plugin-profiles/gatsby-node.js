@@ -1,7 +1,7 @@
-const path = require("path");
+const { resolve } = require("path");
 
-exports.onCreateNode = ({ node, getNode, actions }) => {
-  // Add slug and path to profile MDX nodes.
+exports.onCreateNode = ({ actions, getNode, node }) => {
+  // Add slug and path to profile nodes.
   if (node.internal.type === "MarkdownRemark") {
     const { relativePath } = getNode(node.parent);
     if (relativePath.startsWith("profiles")) {
@@ -13,9 +13,10 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
         value: "profile"
       });
 
-      // Derive slug from relative path: profiles/homer-simpson/profile.md => homer-simpson.
-      // Match result: ["profiles/homer-simpson/", "homer-simpson"]
-      const slug = /.*\/(.*)\//.exec(relativePath)[1];
+      // If not slug defined in frontmatter, derive slug from relative path of Markdown file:
+      // profiles/slug/profile.md => slug.
+      // Match result: ["profiles/slug/", "slug"]
+      const slug = node.frontmatter.slug || /.*\/(.*)\//.exec(relativePath)[1];
 
       createNodeField({
         node,
@@ -29,6 +30,7 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
         value: `/profiles/${slug}`
       });
 
+      // Add avatar image.
       createNodeField({
         node,
         name: "avatar",
@@ -42,7 +44,7 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
 exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions;
   const profiles = await graphql(`
-    query Profiles {
+    query {
       allMarkdownRemark(filter: { fields: { type: { eq: "profile" } } }) {
         edges {
           node {
@@ -55,13 +57,19 @@ exports.createPages = async ({ graphql, actions }) => {
       }
     }
   `);
-  profiles.data.allMarkdownRemark.edges.forEach(({ node }) => {
-    createPage({
-      path: node.fields.path,
-      component: path.resolve("./src/templates/Profile.jsx"),
-      context: {
-        slug: node.fields.slug
+  profiles.data.allMarkdownRemark.edges.forEach(
+    ({
+      node: {
+        fields: { path, slug }
       }
-    });
-  });
+    }) => {
+      createPage({
+        path,
+        component: resolve("./src/templates/Profile.jsx"),
+        context: {
+          slug
+        }
+      });
+    }
+  );
 };

@@ -3,16 +3,13 @@ import RehypeReact from "rehype-react";
 import PropTypes from "prop-types";
 import { graphql } from "gatsby";
 import Image from "gatsby-image";
-import {
-  markdownComponents,
-  ProfilePreview,
-  TextPage
-} from "@undataforum/components";
+import { mdComponents, TextPage } from "@undataforum/components";
 import Layout from "../components/Layout";
+import ProfilePreview from "../components/ProfilePreview";
 
 const renderAst = new RehypeReact({
   createElement: React.createElement,
-  components: markdownComponents
+  components: mdComponents
 }).Compiler;
 
 const Profile = ({
@@ -52,19 +49,8 @@ const Profile = ({
 Profile.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.shape({
-      frontmatter: PropTypes.shape({
-        firstName: PropTypes.string.isRequired,
-        lastName: PropTypes.string.isRequired,
-        jobtitle: PropTypes.string.isRequired,
-        organization: PropTypes.string.isRequired
-      }),
-      fields: PropTypes.shape({
-        avatar: PropTypes.shape({
-          childImageSharp: PropTypes.shape({
-            fixed: PropTypes.object.isRequired
-          })
-        })
-      }),
+      frontmatter: PropTypes.object,
+      fields: PropTypes.object,
       htmlAst: PropTypes.object
     })
   }).isRequired
@@ -75,21 +61,7 @@ export default Profile;
 export const profileQuery = graphql`
   query($slug: String!) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
-      frontmatter {
-        firstName
-        lastName
-        jobtitle
-        organization
-      }
-      fields {
-        avatar {
-          childImageSharp {
-            fixed(height: 128, width: 128, cropFocus: ATTENTION, quality: 85) {
-              ...GatsbyImageSharpFixed
-            }
-          }
-        }
-      }
+      ...ProfilePreview
       htmlAst
     }
   }
