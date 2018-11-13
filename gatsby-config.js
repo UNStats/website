@@ -16,15 +16,14 @@ module.exports = {
     {
       resolve: "gatsby-transformer-remark",
       options: {
+        excerpt_separator: "<!-- end -->",
         plugins: ["gatsby-remark-autolink-headers", "gatsby-remark-smartypants"]
       }
     },
     "gatsby-transformer-sharp",
     "gatsby-plugin-sharp",
+    "gatsby-plugin-blog",
     "gatsby-plugin-profiles",
     "gatsby-plugin-react-helmet"
-  ],
-  mapping: {
-    "Mdx.frontmatter.authors": "Mdx.fields.slug"
-  }
+  ]
 };

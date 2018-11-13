@@ -5,6 +5,7 @@ export default ProfilePreview;
 
 export const query = graphql`
   fragment ProfilePreview on MarkdownRemark {
+    id
     frontmatter {
       firstName
       lastName
@@ -25,6 +26,7 @@ export const query = graphql`
   }
 
   fragment Avatar on MarkdownRemark {
+    id
     frontmatter {
       firstName
       lastName
