@@ -9,10 +9,20 @@
   "scripts": {
     "start": "gatsby develop",
     "build": "rm -rf ./public && gatsby build",
-    "format": "pretty-quick",
     "inspect": "node --inspect-brk node_modules/.bin/gatsby develop",
-    "lint": "eslint --ext .jsx,.js --ignore-path .gitignore .",
-    "precommit": "npm run lint && pretty-quick --staged"
+    "lint": "eslint . --ignore-path .gitignore",
+    "format": "pretty-quick"
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged && lint-staged"
+    }
   },
   "dependencies": {
     "gatsby": "^2.0.0-beta.61",
@@ -20,9 +30,10 @@
     "react-dom": "^16.4.1"
   },
   "devDependencies": {
-    "@mdotasia/eslint-config": "^0.5.0",
     "eslint": "^5.8.0",
-    "husky": "^1.1.2",
+    "eslint-plugin-shopify": "^28.0.0",
+    "husky": "^2.3.0",
+    "lint-staged": "^8.1.7",
     "prettier": "^1.11.1",
     "pretty-quick": "^1.4.1"
   }
