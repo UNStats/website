@@ -1,16 +1,10 @@
 {
   "private": true,
-  "name": "@undataforum/website",
-  "description": "Main UN Data Forum website.",
+  "name": "@undataforum/main-website",
+  "description": "United Nations World Data Forum main website.",
   "version": "0.0.0",
-  "author": {
-    "name": "Thilo Maier",
-    "email": "maier@un.org"
-  },
-  "homepage": "https://www.undataforum.org",
-  "keywords": [
-    "gatsby"
-  ],
+  "author": "Thilo Maier <maier@un.org>",
+  "homepage": "https://undataforum.org",
   "license": "MIT",
   "scripts": {
     "start": "gatsby develop",
@@ -21,21 +15,9 @@
     "precommit": "npm run lint && pretty-quick --staged"
   },
   "dependencies": {
-    "@undataforum/components": "^0.20.0",
     "gatsby": "^2.0.0-beta.61",
-    "gatsby-image": "^2.0.19",
-    "gatsby-plugin-react-helmet": "^3.0.0-beta.4",
-    "gatsby-plugin-sharp": "^2.0.10",
-    "gatsby-remark-autolink-headers": "^2.0.9",
-    "gatsby-remark-smartypants": "^2.0.6",
-    "gatsby-source-filesystem": "^2.0.1-beta.10",
-    "gatsby-transformer-remark": "^2.1.11",
-    "gatsby-transformer-sharp": "^2.1.7",
-    "prop-types": "^15.6.2",
     "react": "^16.4.1",
-    "react-dom": "^16.4.1",
-    "react-helmet": "^5.2.0",
-    "rehype-react": "^3.0.3"
+    "react-dom": "^16.4.1"
   },
   "devDependencies": {
     "@mdotasia/eslint-config": "^0.5.0",
