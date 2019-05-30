@@ -1,12 +1,7 @@
-# New UN Data Forum main website
+# United Nations World Data Forum main website
 
-This repository hosts the new UN Data Forum main website developed with [Gatsby](https://www.gatsbyjs.org/).
+This is the repository for https://undataforum.org. This is a [Gatsby](https://www.gatsbyjs.org/) site built with [gatsby-theme-undataforum](https://www.npmjs.com/package/gatsby-theme-undataforum).
 
-## Development
+## License
 
-This website is hosted as [organization page](https://help.github.com/articles/user-organization-and-project-pages/) on [GitHub Pages](https://pages.github.com/). Therefore, branches work different than in other repositories:
-
-| Branch   | Default | Description                                        |
-| :------- | :------ | :------------------------------------------------- |
-| `gatsby` | yes     | Default branch with source code of Gatsby website. |
-| `master` | no      | Production build of Gatsby website.                |
+The content of this project itself is copyright United Nations, and the underlying source code used to format and display that content is licensed under the [MIT license](LICENSE.md).
