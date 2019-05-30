@@ -1,9 +1,5 @@
 
-.cache/
-.yalc/
-node_modules/
-public/
-
-yalc.lock
-yarn-error.log
+.cache
+node_modules
+public
 .DS_Store

@@ -8,10 +8,11 @@
   "license": "MIT",
   "scripts": {
     "start": "gatsby develop",
-    "build": "rm -rf ./public && gatsby build",
-    "inspect": "node --inspect-brk node_modules/.bin/gatsby develop",
+    "build": "gatsby build",
+    "clean": "rm -rf ./node_modules && rm -rf ./.cache && rm -rf ./public",
     "lint": "eslint . --ignore-path .gitignore",
-    "format": "pretty-quick"
+    "format": "pretty-quick",
+    "inspect": "node --inspect-brk node_modules/.bin/gatsby develop"
   },
   "lint-staged": {
     "*.js": [
@@ -26,6 +27,7 @@
   },
   "dependencies": {
     "gatsby": "^2.0.0-beta.61",
+    "gatsby-theme-undataforum": "^0.1.1",
     "react": "^16.4.1",
     "react-dom": "^16.4.1"
   },
