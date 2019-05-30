@@ -8,7 +8,7 @@
   "license": "MIT",
   "scripts": {
     "start": "gatsby develop",
-    "build": "gatsby build",
+    "now-build": "gatsby build",
     "clean": "rm -rf ./node_modules && rm -rf ./.cache && rm -rf ./public",
     "lint": "eslint . --ignore-path .gitignore",
     "format": "pretty-quick",
