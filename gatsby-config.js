@@ -19,4 +19,13 @@ module.exports = {
     },
   },
   __experimentalThemes: ['gatsby-theme-undataforum'],
+  plugins: [
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'images',
+        path: `${__dirname}/src/images`,
+      },
+    },
+  ],
 };

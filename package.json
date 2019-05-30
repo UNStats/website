@@ -27,7 +27,9 @@
   },
   "dependencies": {
     "gatsby": "^2.0.0-beta.61",
+    "gatsby-source-filesystem": "^2.0.37",
     "gatsby-theme-undataforum": "^0.1.1",
+    "prop-types": "^15.7.2",
     "react": "^16.4.1",
     "react-dom": "^16.4.1"
   },
