@@ -8,7 +8,7 @@ module.exports = {
   plugins: [
     {
       resolve: '@undataforum/gatsby-theme-blog',
-      options: {},
+      options: { basePath: '/blog' },
     },
     {
       resolve: 'gatsby-source-filesystem',
