@@ -27,7 +27,9 @@
     }
   },
   "dependencies": {
+    "@undataforum/components": "^0.39.4",
     "@undataforum/gatsby-theme-blog": "^0.2.1",
+    "@undataforum/tokens": "^0.3.4",
     "gatsby": "^2.0.0-beta.61",
     "gatsby-source-filesystem": "^2.0.37",
     "prop-types": "^15.7.2",
