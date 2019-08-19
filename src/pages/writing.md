@@ -52,7 +52,7 @@ Here are some examples:
 - _Sustainable Development Goals_, _Sustainable Development Goal 13_ (or _Goal 13_) are always capitalized.
 - _2030 Agenda_ (not _Agenda 2030_), but _development agenda_.
 - _A group of experts_, but _Group of Experts on Gender Statistics_.
-- _National Statistical Offices_, but _official statistics_.
+- _National Statistical Offices_, but _official statistics_ and _voluntary national review_.
 - _Cape Town Action Plan_, but _geographic information systems_.
 
 You can find more examples [here](http://www.dgacm.org/editorialmanual/ed-guidelines/style/capitalization.htm).
