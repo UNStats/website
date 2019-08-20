@@ -28,19 +28,19 @@
   },
   "dependencies": {
     "@undataforum/components": "^0.39.4",
-    "@undataforum/gatsby-theme-blog": "^0.2.1",
+    "@undataforum/gatsby-theme-blog": "^0.3.0",
     "@undataforum/tokens": "^0.3.4",
-    "gatsby": "^2.0.0-beta.61",
+    "gatsby": "^2.13.71",
     "gatsby-source-filesystem": "^2.0.37",
     "prop-types": "^15.7.2",
     "react": "^16.4.1",
     "react-dom": "^16.4.1"
   },
   "devDependencies": {
-    "eslint": "^6.1.0",
+    "eslint": "^6.2.1",
     "eslint-plugin-shopify": "^30.0.1",
-    "husky": "^3.0.3",
-    "lint-staged": "^9.2.1",
+    "husky": "^3.0.4",
+    "lint-staged": "^9.2.3",
     "now": "^16.1.1",
     "prettier": "^1.18.2",
     "pretty-quick": "^1.11.1"
