@@ -46,7 +46,7 @@ Use acronyms sparingly. Do not assume that all users are familiar with acronyms 
 
 Here is a list of example of established acronyms:
 
-- United Nations agencies (such as UNDP, UNICEF, etc.),
+- Specialized agencies of the United Nations system (such as UNDP, UNICEF, etc.),
 - DESA,
 - NGO/NGOs,
 - IT,
