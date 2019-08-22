@@ -49,8 +49,11 @@ Here is a list of example of established acronyms:
 - Specialized agencies of the United Nations system (such as UNDP, UNICEF, etc.),
 - DESA,
 - NGO/NGOs,
-- IT,
-- academic titles (such as BA, MS, PhD, etc.)
+- IT (not ICT).
+
+#### Academic titles
+
+Use BA, BSc (not BS), MA, MSc (not MS to be consistent with BSc), and PhD. If you want to specify the field write, e.g., _BSc in sociology_. The field is not capitalized.
 
 #### Exceptions
 
@@ -102,3 +105,9 @@ Always write _United Nations Statistics Division_. Do not use
 - Write _2030 Agenda for Sustainable Development_ on first occurrence and _2030 Agenda_ subsequently. Never _Agenda 2030_.
 - Write _Cape Town Global Action Plan for Sustainable Development Data_ on first occurrence and _Cape Town Global Action Plan_ subsequently.
 - The correct way of referring to "United Nations specialized agencies" is _specialized agencies of the United Nations system_ or short _specialized agencies_.
+
+### Hypens and dashes
+
+- Use hyphen `-` for compound terms, e.g., _eye-opener_.
+- Use en-dash `–` for ranges, e.g., _2017–2019_, _Goals 3–9_, and _18–21 Oct 2020_.
+- Use em-dash `—` with a space before and after to replace commas, parentheses and colons, e.g. _The conclusion — not guilty_.
