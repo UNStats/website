@@ -3,7 +3,13 @@ title: Catalyzing the use and impact of official statistics for sustainable deve
 date: 2018-08-27
 authors:
   - deirdre-appel
+
+images:
+  - ../assets/posts/CapacityDevData.jpg
+  - ../assets/posts/NSO_dataUsage.jpg
 ---
+
+import { Image } from '@undataforum/gatsby-theme-blog';
 
 The first United Nations World Data Forum launched the [Cape Town Global Action Plan for Sustainable Development Data (CTGAP)](https://unstats.un.org/sdgs/hlg/cape-town-global-action-plan/), an ambitious yet essential commitment to innovate and modernize national statistical systems, among other priorities. As policymakers, development partners and other data advocates prepare to gather at the second UN World Data Forum in Dubai in October, it is an opportune moment to ask how these various actors can effectively implement this Plan.
 
@@ -11,9 +17,12 @@ A critical piece of this puzzle is to be able to better support National Statist
 
 The 2030 Agenda has placed increased demands on NSOs in terms of the quantity and quality of data that needs to be collected to effectively monitor the [Sustainable Development Goals (SDGs)](https://sustainabledevelopment.un.org/). The CTGAP is a global plan for the planning and implementation of statistical capacity building necessary to achieve the scope and intent of the 2030 Agenda. The national statistical system - NSOs and other agencies designated to collect, compile and disseminate official statistics — is central to making progress on its six strategic areas (Figure 1).
 
-**Figure 1: Six strategic areas of the Cape Town Global Action Plan**
-[//]:<img src="//undataforum.org/WorldDataForum/wp-content/uploads/2018/08/CapacityDevData.jpg" />
-Source: Open Data Watch
+<Image
+  fluid={props.images[0]}
+  title="Figure 1: Six strategic areas of the Cape Town Global Action Plan"
+  alt="Six strategic areas of the Cape Town Global Action Plan: (1) Coordination and strategic leadership on data for sustainable development; (2) Innovation and modernization of national statistical systems; (3) Strengthening of basic statistical activities and programmes, with particular focus on addressing the monitoring needs of the 2030 Agenda; (4) Dissemination and use of sustainable development data; (5) Multi-stakeholder partnerships for sustainable development data; (6) Mobilize resources and coordinate efforts for statistical capacity building."
+/>
+
 However, despite the increased demand for development data from NSOs, there are [barriers that limit the full potential of official statistics](https://www.aiddata.org/publications/avoiding-data-graveyards-insights-from-data-producers-users-in-three-countries) to bring about the desired change in society. Some of these include, but are not limited to, the timeliness and perceptions of accuracy of the data, due to both technical and political constraints. In sum, there remains a broken link in the data value chain between the production of official statistics and its dissemination and use.
 
 To close the gap between production of official statistics on the one hand, and its dissemination and use on the other, development partners and other actors need a better understanding of the NSO perspective and the barriers they face with disseminating, monitoring and increasing data use. And to assist the modernization of statistical systems, an analysis of usage statistics from national data portals and NSO websites is also necessary.
@@ -26,9 +35,11 @@ Contrary to what might be expected based on their primary mandate to collect, an
 
 The most common way of monitoring data use was through web analytics. *While more than 70 percent of those that currently monitored data use did it through web analytics, more than 85 percent of those that would like to monitor data use also chose this as their preferred way (Figure 2).* This suggests that NSOs that do not currently monitor data use would appreciate support in using web analytics for their data portals or websites hosting official statistics.
 
-**Figure 2: Current ways that NSOs monitor the use of data they produce**
-
-[//]: <img src="//undataforum.org/WorldDataForum/wp-content/uploads/2018/08/NSO_dataUsage.jpg" />
+<Image
+  fluid={props.images[1]}
+  title="Figure 2: Current ways that NSOs monitor the use of data they produce"
+  alt=""
+/>
 
 Notes: This figure is based on the question: How do you measure the use of data produced by NSOs? The question was only asked to those respondents that said they monitor data use. Respondents could select all that apply. Data labels represent the number of respondents that selected a certain response option.
 
