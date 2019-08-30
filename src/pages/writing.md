@@ -23,58 +23,46 @@ The following information is required for profiles:
 - jobtitle, organization, and optionally link to your organization;
 - high resolution profile photo (JPG or PNG formats).
 
-Similar to blog posts, the first paragraph of your profile is used for SEO and you have the option to provide a differen text for SEO.
+Similar to blog posts, the first paragraph of your profile is used for SEO and you have the option to provide an alternative text for SEO.
 
 ## Editorial guide
 
-The United Nations World Data Forum website follows the [United Nations Editorial Manual](http://www.dgacm.org/editorialmanual/). This guide summarizes what you need to know when writing for the United Nations World Data Forum website.
+The United Nations World Data Forum website follows the [OCHA Editorial Style Guide, third edition](https://www.unocha.org/publication/ocha-editorial-style-guide-third-edition). The OCHA Editorial Style Guide is a digest of the [United Nations Editorial Manual](http://www.dgacm.org/editorialmanual/) and empowers users to write better content. The following sections complement the OCHA Editorial Style Guide for the context of the United Nations World Data Forum.
 
-### Spelling
+### Captialization (amendment of section 6)
 
-Spelling follows the [Concise Oxford English Dictionary](https://global.oup.com/academic/product/concise-oxford-english-dictionary-9780199601080?cc=us&lang=en&), twelfth edition. In other words, use British English. There sre some notable exceptions, e.g., the United Nations writes _organization_ instead of _organisation_ and _specialize_ instead of _specialise_. You can lookup the spelling of commonly used words [here](http://www.dgacm.org/editorialmanual/ed-guidelines/style/spelling.htm).
+big data
 
-### Acronyms
+development agenda
 
-Use acronyms sparingly. Do not assume that all users are familiar with acronyms used by the data and statistical communities. These simple rules help make your writing easier to read and understand:
+geographic information systems
 
-- Do not use acronyms in headings.
-- Do not introduce an acronym when it occurs only once.
-- Spell out an acronym when used for the first time outside a heading and put the acronym in brackets, e.g., write _geographic information system (GIS)_ on first use and _GIS_ subsequently.
-- Establihsed acronyms can be used in headings and do not have to be spelled out.
+National Statistical Offices
 
-#### Established acronyms
+national statistical systems
 
-Here is a list of example of established acronyms:
+official statistics
+
+Sustainable Development Goals
+
+Sustainable Development Goal 13 (or Goal 13)
+
+voluntary national reviews
+
+### Acronyms (amendment of section 8)
+
+The list in section 8 of the OCHA Editorial Style Guilde is OCHA specific. For the United Nations World Data Forum website, you can use the following acronyms:
 
 - Specialized agencies of the United Nations system (such as UNDP, UNICEF, etc.),
 - DESA,
 - NGO/NGOs,
 - IT (not ICT).
 
-#### Academic titles
-
-Use BA, BSc (not BS), MA, MSc (not MS to be consistent with BSc), and PhD. If you want to specify the field write, e.g., _BSc in sociology_. The field is not capitalized.
-
-#### Exceptions
-
-- Never write UN, always write United Nations.
-- SDGs/SDG and NSOs/NSO are not considered established acronyms. They need to be spelled out in headings and on first occurence outside headings.
-
-### Captialization
-
-In headings, capitalize the first word only. The only exception to this rule are terms that should always be capitalized, such as _Sustainable Development Goals_.
-
-Any other capitalizations should be used sparingly. Certain terms are capitalized when used in a specialized or restricted sense, the purpose of the capital being to point to the specialized or restricted sense.
-
-#### Examples
-
-- _Sustainable Development Goals_, _Sustainable Development Goal 13_ (or _Goal 13_) are always capitalized.
-- _National Statistical Offices_, but _national statistical systems_ and _official statistics_.
-- The following terms are never capitalized _big data_, _geographic information systems_, _voluntary national reviews_, and _development agenda_.
-
-You can find more examples [here](http://www.dgacm.org/editorialmanual/ed-guidelines/style/capitalization.htm).
+All other acronyms need to be spelled out in headings and on first occurence outside headings. This includes SDGs and NSOs.
 
 ### Special entities
+
+Always write _United Nations_. Never write _UN_.
 
 Always write _United Nations World Data Forum_. Do not use
 
@@ -100,14 +88,14 @@ Always write _United Nations Statistics Division_. Do not use
 - _Statistics Division_, or
 - _UNSD_.
 
-### Special terms
+### Special proper nouns
 
-- Write _2030 Agenda for Sustainable Development_ on first occurrence and _2030 Agenda_ subsequently. Never _Agenda 2030_.
-- Write _Cape Town Global Action Plan for Sustainable Development Data_ on first occurrence and _Cape Town Global Action Plan_ subsequently.
-- The correct way of referring to "United Nations specialized agencies" is _specialized agencies of the United Nations system_ or short _specialized agencies_.
+Write _2030 Agenda for Sustainable Development_ on first occurrence and _2030 Agenda_ subsequently. Never _Agenda 2030_.
 
-### Hypens and dashes
+Write _Cape Town Global Action Plan for Sustainable Development Data_ on first occurrence and _Cape Town Global Action Plan_ subsequently.
 
-- Use hyphen `-` for compound terms, e.g., _eye-opener_.
-- Use en-dash `–` for ranges, e.g., _2017–2019_, _Goals 3–9_, and _18–21 Oct 2020_.
-- Use em-dash `—` with a space before and after to replace commas, parentheses and colons, e.g. _The conclusion — not guilty_.
+The correct way of referring to "United Nations specialized agencies" is _specialized agencies of the United Nations system_ or short _specialized agencies_.
+
+### Academic titles
+
+Use BA, BSc (not BS), MA, MSc (not MS to be consistent with BSc), and PhD. If you want to specify the field write, e.g., _BSc in sociology_. The field is not capitalized.
