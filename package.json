@@ -30,7 +30,7 @@
     "@undataforum/components": "^0.42.0",
     "@undataforum/gatsby-theme-blog": "^0.5.0",
     "@undataforum/tokens": "^0.3.4",
-    "gatsby": "^2.13.71",
+    "gatsby": "2.13.76",
     "gatsby-source-filesystem": "^2.0.37",
     "prop-types": "^15.7.2",
     "react": "^16.4.1",
