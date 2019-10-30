@@ -1,19 +1,13 @@
 {
   "private": true,
-  "name": "@undataforum/main-website",
-  "description": "United Nations World Data Forum main website.",
-  "version": "0.0.0",
-  "author": "Thilo Maier <maier@un.org>",
-  "homepage": "https://undataforum.org",
-  "license": "MIT",
+  "workspaces": [
+    "site"
+  ],
   "scripts": {
-    "start": "gatsby develop",
-    "build": "gatsby build",
-    "clean": "gatsby clean",
-    "inspect": "node --inspect-brk node_modules/.bin/gatsby develop",
+    "build": "rm -rf public && yarn workspace site run build && mv site/public/ public",
     "lint": "eslint . --ignore-path .gitignore",
     "format": "pretty-quick",
-    "purge": "rm -rf ./node_modules"
+    "purge": "rm -rf ./node_modules && yarn workspaces run purge"
   },
   "lint-staged": {
     "*.js": [
@@ -26,23 +20,11 @@
       "pre-commit": "pretty-quick --staged && lint-staged"
     }
   },
-  "dependencies": {
-    "@undataforum/components": "0.42.0",
-    "@undataforum/gatsby-theme-blog": "0.5.2",
-    "@undataforum/tokens": "0.3.5",
-    "gatsby": "2.13.76",
-    "gatsby-source-filesystem": "2.1.26",
-    "prop-types": "15.7.2",
-    "react": "16.9.0",
-    "react-dom": "16.9.0"
-  },
   "devDependencies": {
-    "eslint": "6.4.0",
-    "eslint-plugin-shopify": "30.0.1",
-    "husky": "3.0.5",
-    "lint-staged": "9.3.0",
-    "now": "16.2.0",
-    "prettier": "1.18.2",
-    "pretty-quick": "1.11.1"
+    "eslint": "^6.6.0",
+    "eslint-plugin-shopify": "^31.0.0",
+    "now": "^16.4.4",
+    "prettier": "^1.18.2",
+    "pretty-quick": "^2.0.0"
   }
 }
