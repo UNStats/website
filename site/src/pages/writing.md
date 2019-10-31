@@ -8,7 +8,7 @@ description: A short guide on how to write for the World Data Forum website.
 - Blog posts should follow the editorial guide below.
 - Blog posts require a title, but do not support subtitles.
 - The body of your blog post needs to start with text, not with a heading.
-- The first paragraph of your blog post is used as teaser for you blog post on the United Nations World Data Forum homepage and as page metadata for search engine optimization (SEO).
+- The first paragraph of your blog post is used as teaser for your blog post on the United Nations World Data Forum homepage and as page metadata for search engine optimization (SEO).
 - You can optionally provide a different text as teaser and for SEO.
 - You can use headings to structure your blog post.
 - You can use lists with bullets or numbers to structure content.
