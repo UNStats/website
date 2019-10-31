@@ -1732,7 +1732,7 @@
     remark "^11.0.1"
     strip-markdown "^3.1.0"
 
-"@undataforum/gatsby-theme-events@^0.2.2":
+"@undataforum/gatsby-theme-events@0.2.2":
   version "0.2.2"
   resolved "https://registry.yarnpkg.com/@undataforum/gatsby-theme-events/-/gatsby-theme-events-0.2.2.tgz#cf4f5ffbac5987f196a84e0864320e5c601a7df9"
   integrity sha512-GoiFVHaTF8mJ1p9OatHZ0ZzSnY2wC/V8+tWIlvCo1Tq//cdeOB/rAwvDbGGlk+V5tzw/lmOsY9dXWMcLVA25vg==
