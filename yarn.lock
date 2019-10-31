@@ -1661,7 +1661,7 @@
     lodash.unescape "4.0.1"
     semver "^6.3.0"
 
-"@undataforum/assets@^0.1.1":
+"@undataforum/assets@0.1.1":
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/@undataforum/assets/-/assets-0.1.1.tgz#c0e8df4c0f4197eddf95d602e53beb4be6b732aa"
   integrity sha512-y/ZskncZm+NCn/UKB3JVAGUAKoeAso9jBV4CBgaE11WuXsb4XixF4iF1wj+APxccG+3VzcVUDgrJ1OoQ2UgWfg==
@@ -1731,6 +1731,22 @@
     prop-types "^15.7.2"
     remark "^11.0.1"
     strip-markdown "^3.1.0"
+
+"@undataforum/gatsby-theme-events@^0.2.1":
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/@undataforum/gatsby-theme-events/-/gatsby-theme-events-0.2.1.tgz#ebd8965a962f475c258b52a447ab85ad5939195f"
+  integrity sha512-wWXkXeS1ZviKXFZlqL0K4AMuKgzBOOipacA5t5TNjlNW5ry7JMJb7zNtk3V7roLQBKCnq7xmcpY5teH6DO1DTA==
+  dependencies:
+    "@undataforum/components" "^0.47.0"
+    "@undataforum/gatsby-theme-base" "^0.8.0"
+    "@undataforum/gatsby-theme-profiles" "^0.3.1"
+    gatsby-image "^2.2.14"
+    gatsby-plugin-compile-es6-packages "^2.1.0"
+    gatsby-source-filesystem "^2.1.35"
+    luxon "^1.20.0"
+    prop-types "^15.7.2"
+    remark "^11.0.1"
+    strip-markdown "^3.1.1"
 
 "@undataforum/gatsby-theme-profiles@^0.3.1":
   version "0.3.1"
@@ -3300,7 +3316,12 @@ chokidar@^2.0.2, chokidar@^2.0.4, chokidar@^2.1.8:
   optionalDependencies:
     fsevents "^1.2.7"
 
-chownr@^1.1.1, chownr@^1.1.3:
+chownr@^1.1.1:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/chownr/-/chownr-1.1.2.tgz#a18f1e0b269c8a6a5d3c86eb298beb14c3dd7bf6"
+  integrity sha512-GkfeAQh+QNy3wquu9oIZr6SS5x7wGdSgNQvD10X3r+AZr1Oys22HW8kAmDMvNg2+Dm0TeGaEuO8gFwdBXxwO8A==
+
+chownr@^1.1.3:
   version "1.1.3"
   resolved "https://registry.yarnpkg.com/chownr/-/chownr-1.1.3.tgz#42d837d5239688d55f303003a508230fa6727142"
   integrity sha512-i70fVHhmV3DtTl6nqvZOnIjbY0Pe4kAUjwHj8z0zAdgBtYrJyYwLKCCuRBQ5ppkyL0AkN7HKRnETdmdp1zqNXw==
@@ -4665,9 +4686,9 @@ ee-first@1.1.1:
   integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
 
 electron-to-chromium@^1.3.247, electron-to-chromium@^1.3.47:
-  version "1.3.266"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.266.tgz#a33fb529c75f8d133e75ea7cbedb73a62f2158d2"
-  integrity sha512-UTuTZ4v8T0gLPHI7U75PXLQePWI65MTS3mckRrnLCkNljHvsutbYs+hn2Ua/RFul3Jt/L3Ht2rLP+dU/AlBfrQ==
+  version "1.3.265"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.265.tgz#d69afa05a33e551b913a9798f072a6442f46b348"
+  integrity sha512-ypHt5Nv1Abr27QvJqk3VC4YDNqsrrWYMCmpmR7BNfCpcgYEwmCDoi3uJpp6kvj/MIjpScQoZMCQzLqfMQGmOsg==
 
 electron-to-chromium@^1.3.295:
   version "1.3.296"
@@ -4725,9 +4746,9 @@ encoding@^0.1.11:
     iconv-lite "~0.4.13"
 
 end-of-stream@^1.0.0, end-of-stream@^1.1.0, end-of-stream@^1.4.1:
-  version "1.4.4"
-  resolved "https://registry.yarnpkg.com/end-of-stream/-/end-of-stream-1.4.4.tgz#5ae64a5f45057baf3626ec14da0ca5e4b2431eb0"
-  integrity sha512-+uw1inIHVPQoaVuHzRyXd21icM+cnt4CzD5rW+NC1wjOUSTOs+Te7FOv7AhN7vS9x/oIyhLP5PR1H+phQAHu5Q==
+  version "1.4.3"
+  resolved "https://registry.yarnpkg.com/end-of-stream/-/end-of-stream-1.4.3.tgz#9db9861620e47283cd49513be9c344f339ec5153"
+  integrity sha512-cbNhPFS6MlYlWTGncSiDYbdqKhwWFy7kNeb1YSOG6K65i/wPTkLVCJQj0hXA4j0m5Da+hBWnqopEnu1FFelisQ==
   dependencies:
     once "^1.4.0"
 
@@ -6018,7 +6039,7 @@ gatsby-graphiql-explorer@^0.2.26:
   dependencies:
     "@babel/runtime" "^7.6.3"
 
-gatsby-image@^2.2.29:
+gatsby-image@^2.2.14, gatsby-image@^2.2.29:
   version "2.2.30"
   resolved "https://registry.yarnpkg.com/gatsby-image/-/gatsby-image-2.2.30.tgz#3ca58adb1814a759dcaf26d742ae90e89c7144de"
   integrity sha512-WANouedEFeqLsaDwZbTHlYKTPqV0Htr2A1BiP921SVaR3GrMwtuBoBzpDSXHF+0q9TE2w885gKdNIG/GgzgKaQ==
@@ -8702,6 +8723,11 @@ ltcdr@^2.2.1:
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/ltcdr/-/ltcdr-2.2.1.tgz#5ab87ad1d4c1dab8e8c08bbf037ee0c1902287cf"
   integrity sha1-Wrh60dTB2rjowIu/A37gwZAih88=
+
+luxon@^1.20.0:
+  version "1.21.0"
+  resolved "https://registry.yarnpkg.com/luxon/-/luxon-1.21.0.tgz#290b5ced5379c130a31f52d1ebc0da483dc91b38"
+  integrity sha512-GkS6D9prDlacKi062DW/OxVI7i+CKgfBc2uDqI//UH1VwPPlgYiMwfoP5uHK3UfzdjXgbwmEwZHWIGgLcg/APg==
 
 make-dir@^1.0.0, make-dir@^1.2.0:
   version "1.3.0"
@@ -12849,7 +12875,7 @@ strip-json-comments@~2.0.1:
   resolved "https://registry.yarnpkg.com/strip-json-comments/-/strip-json-comments-2.0.1.tgz#3c531942e908c2697c0ec344858c286c7ca0a60a"
   integrity sha1-PFMZQukIwml8DsNEhYwobHygpgo=
 
-strip-markdown@^3.1.0:
+strip-markdown@^3.1.0, strip-markdown@^3.1.1:
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/strip-markdown/-/strip-markdown-3.1.1.tgz#aa50d06c3d61ae70486cb255e4331fc418a91115"
   integrity sha512-Q83C2WWWxASuJm7XuSqS9PGYQb8yTSxPtxE6bjCj/8kwuk4IY5qi9aEQkfyeqky0E5uCQpl1pDgOvQRh90FyMg==

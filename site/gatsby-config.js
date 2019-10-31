@@ -11,6 +11,10 @@ module.exports = {
       options: { basePath: '/blog' },
     },
     {
+      resolve: '@undataforum/gatsby-theme-events',
+      options: { basePath: '/events' },
+    },
+    {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'images',
