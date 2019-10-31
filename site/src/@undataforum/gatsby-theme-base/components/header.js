@@ -1,6 +1,6 @@
 import React from 'react';
 import { Header } from '@undataforum/components';
-import { Logo } from '@undataforum/tokens';
+import { Logo } from '@undataforum/assets';
 
 const ShadowedHeader = props => (
   <Header
