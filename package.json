@@ -4,7 +4,9 @@
     "site"
   ],
   "scripts": {
+    "start": "yarn workspace site run develop",
     "build": "rm -rf public && yarn workspace site run build && mv site/public/ public",
+    "clean": "yarn workspace site run clean",
     "lint": "eslint . --ignore-path .gitignore",
     "format": "pretty-quick",
     "purge": "rm -rf ./node_modules && yarn workspaces run purge"
