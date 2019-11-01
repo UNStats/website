@@ -5,8 +5,7 @@ authors:
   - stefan-schweinfest
 ---
 
-The 17 [Sustainable Development Goals (SDGs)](https://sustainabledevelopment.un.org/sdgs), adopted one year ago by world leaders as part of the [2030 Agenda for Sustainable Development](https://sustainabledevelopment.un.org/post2015/transformingourworld), are unprecedented in their scope and vision of a better future for people and the planet.
-The [169 targets and 230 indicators](https://unstats.un.org/sdgs/indicators/indicators-list/) agreed through the SDG process are also unprecedented in their scope setting out what needs to be measured to monitor progress, inform decision-making and hold governments accountable on the 2030 Agenda.
+The 17 [Sustainable Development Goals (SDGs)](https://sustainabledevelopment.un.org/sdgs), adopted one year ago by world leaders as part of the [2030 Agenda for Sustainable Development](https://sustainabledevelopment.un.org/post2015/transformingourworld), are unprecedented in their scope and vision of a better future for people and the planet. The [169 targets and 230 indicators](https://unstats.un.org/sdgs/indicators/indicators-list/) agreed through the SDG process are also unprecedented in their scope setting out what needs to be measured to monitor progress, inform decision-making and hold governments accountable on the 2030 Agenda.
 
 Now we in the statistics and data communities have to rise to this huge challenge to put in place the systems to gather and analyze the data needed, and to fill the many data gaps, using all the tools at our disposal from both traditional and innovative sources, strengthening national statistical systems and also tapping into the vast reach of the [data revolution](http://www.undatarevolution.org/).
 
