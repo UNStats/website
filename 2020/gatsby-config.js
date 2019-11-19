@@ -8,7 +8,10 @@ module.exports = {
   plugins: [
     {
       resolve: '@undataforum/gatsby-theme-profiles',
-      options: {},
+      options: {
+        description:
+          'Programme Committee for the 2020 United Nations World Data Forum.',
+      },
     },
   ],
 };
