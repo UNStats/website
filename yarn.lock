@@ -2191,7 +2191,7 @@
     prop-types "^15.7.2"
     theme-ui "^0.2.44"
 
-"@undataforum/gatsby-theme-base@^0.10.0":
+"@undataforum/gatsby-theme-base@0.10.0", "@undataforum/gatsby-theme-base@^0.10.0":
   version "0.10.0"
   resolved "https://registry.yarnpkg.com/@undataforum/gatsby-theme-base/-/gatsby-theme-base-0.10.0.tgz#ff9cea9ca104f52dbcadb02d9c4e79bf596dc36b"
   integrity sha512-hsAVyNj48OPadg2bjznlrk1BkzfK+hULx481MooJlV7MxdZUemA0+Il3eTTNxlUcvR/ASHUGXnlqBI2atMqrfw==
@@ -2244,7 +2244,7 @@
     remark "^11.0.1"
     strip-markdown "^3.1.1"
 
-"@undataforum/gatsby-theme-profiles@^0.4.1":
+"@undataforum/gatsby-theme-profiles@0.4.1", "@undataforum/gatsby-theme-profiles@^0.4.1":
   version "0.4.1"
   resolved "https://registry.yarnpkg.com/@undataforum/gatsby-theme-profiles/-/gatsby-theme-profiles-0.4.1.tgz#65ee1caa8c934894ffa59a006b8f3ad78d7fed18"
   integrity sha512-sNqA2LBROFzVcwrCwgVSx4mOLz7HQh/eX5SYf9vAbq8+lwqVMiSGyWqquW32PZP1EeiA0bkgDWNiRGZ9FA8Icw==
@@ -6553,7 +6553,7 @@ gatsby-graphiql-explorer@^0.2.28:
   dependencies:
     "@babel/runtime" "^7.7.2"
 
-gatsby-image@^2.2.33:
+gatsby-image@2.2.33, gatsby-image@^2.2.33:
   version "2.2.33"
   resolved "https://registry.yarnpkg.com/gatsby-image/-/gatsby-image-2.2.33.tgz#130f0dec89780bd8b367b7eebfe296eb2222286e"
   integrity sha512-Mt8l7DXeXuqIwiYefcvOK1awzs4ofE5y3qW1Pmk/IA8AFTNqwDBsu2ZqxxCfbGoyUXVuXNvDArq1QGMJel7eqQ==
