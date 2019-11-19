@@ -17,7 +17,7 @@
     "@undataforum/components": "0.48.0",
     "@undataforum/gatsby-theme-blog": "0.7.0",
     "@undataforum/gatsby-theme-events": "0.3.0",
-    "gatsby": "2.17.17",
+    "gatsby": "2.18.0",
     "gatsby-source-filesystem": "2.1.38",
     "prop-types": "15.7.2",
     "react": "16.12.0",
