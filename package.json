@@ -1,7 +1,8 @@
 {
   "private": true,
   "workspaces": [
-    "site"
+    "site",
+    "2020"
   ],
   "scripts": {
     "start": "yarn workspace site run develop",
