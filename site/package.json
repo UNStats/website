@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "site",
-  "description": "United Nations World Data Forum main website.",
+  "description": "United Nations World Data Forum website.",
   "version": "0.0.0",
   "author": "Thilo Maier <maier@un.org>",
   "homepage": "https://undataforum.org",
@@ -13,10 +13,10 @@
     "purge": "rm -rf ./node_modules"
   },
   "dependencies": {
-    "@undataforum/assets": "0.2.0",
-    "@undataforum/components": "0.48.0",
-    "@undataforum/gatsby-theme-blog": "0.7.0",
-    "@undataforum/gatsby-theme-events": "0.3.0",
+    "@undataforum/assets": "0.3.0",
+    "@undataforum/components": "0.56.0",
+    "@undataforum/gatsby-theme-blog": "0.7.1",
+    "@undataforum/gatsby-theme-events": "0.3.1",
     "gatsby": "2.18.0",
     "gatsby-source-filesystem": "2.1.38",
     "prop-types": "15.7.2",
