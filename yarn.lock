@@ -1899,6 +1899,14 @@
     "@styled-system/core" "^5.1.2"
     "@styled-system/css" "^5.0.23"
 
+"@theme-ui/color@^0.2.49":
+  version "0.2.49"
+  resolved "https://registry.yarnpkg.com/@theme-ui/color/-/color-0.2.49.tgz#599276ca0dcf94c00c4f35a7b38b6833b3b35bfe"
+  integrity sha512-vUs1SnIzhDjYDyXzidtE62gKELylSw79fSYeNM//DQrNngupTZFWlyAga+MdcS9UYjWJ9Z/ueR0mfy6qlWdlpQ==
+  dependencies:
+    "@styled-system/css" "^5.0.23"
+    polished "^3.4.1"
+
 "@theme-ui/components@^0.2.45":
   version "0.2.46"
   resolved "https://registry.yarnpkg.com/@theme-ui/components/-/components-0.2.46.tgz#1199610d6bb4281445f587e2805c36394e935e39"
@@ -2148,15 +2156,28 @@
     semver "^6.3.0"
     tsutils "^3.17.1"
 
-"@undataforum/assets@0.2.0":
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/@undataforum/assets/-/assets-0.2.0.tgz#8e84accf21d0e04026d2c46117a6e5197b463b45"
-  integrity sha512-40LSEM4g0L51WYFH8BugqhnoydlnLB508ONimQ3GVsWA7eBl2TSLuwogyS65xNOm22ZrCpEgNuRr0Wl0worTPg==
+"@undataforum/assets@0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@undataforum/assets/-/assets-0.3.0.tgz#1bf0aa779ab0097c4b0a46c2bbddd1dae3d8d13a"
+  integrity sha512-znD31yZfDqUdlalp/hFXsyXm65+RHe8e3XCpG0ohtzRJBFAI8rwuwx701wPBopAZlL6ympzM20Lf4uflH5S6fw==
   dependencies:
-    "@theme-ui/components" "^0.2.45"
     prop-types "^15.7.2"
 
-"@undataforum/components@0.48.0", "@undataforum/components@^0.48.0":
+"@undataforum/components@0.56.0":
+  version "0.56.0"
+  resolved "https://registry.yarnpkg.com/@undataforum/components/-/components-0.56.0.tgz#befc5b74a7b453a58c44b1446f6aafcadb07a5ea"
+  integrity sha512-EWupvsiVlA3RbenP4P3IFQqIMHQd3Xt6jaKS3J6yY5Z4UTVIqat55XZwEXynSzsGKBUJB9rrEy2vohiiZLJBEA==
+  dependencies:
+    "@emotion/core" "^10.0.21"
+    "@mdx-js/react" "^1.5.1"
+    "@theme-ui/color" "^0.2.49"
+    "@theme-ui/components" "^0.2.45"
+    "@theme-ui/preset-base" "^0.2.44"
+    deepmerge "^4.2.2"
+    prop-types "^15.7.2"
+    theme-ui "^0.2.44"
+
+"@undataforum/components@^0.48.0":
   version "0.48.0"
   resolved "https://registry.yarnpkg.com/@undataforum/components/-/components-0.48.0.tgz#54ffa9c61b4de008d6a70b5f61592779df0b6118"
   integrity sha512-56X82Ujqt/07fujymGjl828bmWfRujxkt5juaTuHRIL5lWEvSjz5NFx52fDpqXL+uOFmWya/Odh5l7B2i7pwnQ==
@@ -10980,6 +11001,13 @@ pnp-webpack-plugin@^1.5.0:
   integrity sha512-jd9olUr9D7do+RN8Wspzhpxhgp1n6Vd0NtQ4SFkmIACZoEL1nkyAdW9Ygrinjec0vgDcWjscFQQ1gDW8rsfKTg==
   dependencies:
     ts-pnp "^1.1.2"
+
+polished@^3.4.1:
+  version "3.4.2"
+  resolved "https://registry.yarnpkg.com/polished/-/polished-3.4.2.tgz#b4780dad81d64df55615fbfc77acb52fd17d88cd"
+  integrity sha512-9Rch6iMZckABr6EFCLPZsxodeBpXMo9H4fRlfR/9VjMEyy5xpo1/WgXlJGgSjPyVhEZNycbW7UmYMNyWS5MI0g==
+  dependencies:
+    "@babel/runtime" "^7.6.3"
 
 portfinder@^1.0.25:
   version "1.0.25"
