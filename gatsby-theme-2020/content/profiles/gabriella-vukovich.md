@@ -16,4 +16,4 @@ She worked as a demographer at the [Population Activities Unit of the United Nat
 
 Gabriella holds a doctorate degree from the [Faculty of Law at Eötvös Loránd University in Budapest](https://www.elte.hu/en/law), honorary professor titles from the [National University of Public Service](https://en.uni-nke.hu/) and the [University of Miskolc](http://www.uni-miskolc.hu/en), as well as an honorary doctor from the University of Miskolc.
 
-Gabriella also served as a member of the Programme Committee for the 2017 and 2018 United Nations World Data Forum.
+Gabriella is a member of the programme committee for the 2020 United Nations World Data Forum. She was also a member of the programme committee for the 2018 and 2017 forums.
