@@ -2211,14 +2211,14 @@
     react-helmet "^5.2.1"
     theme-ui "^0.2.44"
 
-"@undataforum/gatsby-theme-blog@0.7.2":
-  version "0.7.2"
-  resolved "https://registry.yarnpkg.com/@undataforum/gatsby-theme-blog/-/gatsby-theme-blog-0.7.2.tgz#5b752bf97cf99139bc645aa926552cec944d4b66"
-  integrity sha512-1Xelqr0Yxr1V815kL+BMbZEmJ0zxGzL8e4IhtMTbdbvAlDaoBapEIpoCW3q8VygGTrvCwLwUsz4PaPVhKZtRpg==
+"@undataforum/gatsby-theme-blog@0.7.4":
+  version "0.7.4"
+  resolved "https://registry.yarnpkg.com/@undataforum/gatsby-theme-blog/-/gatsby-theme-blog-0.7.4.tgz#b6ee83ddecd73742afab38aba8d5505a9ebec014"
+  integrity sha512-tvvV46tSQ9kPeK4pnq/TRA3WK+84DeKiuWHLBP9MWQLl5uHQTEKso1m4/7chgIwsoDi9GRoSdu+qWEKUOvIsew==
   dependencies:
     "@undataforum/components" "^0.56.0"
     "@undataforum/gatsby-theme-base" "^0.10.0"
-    "@undataforum/gatsby-theme-profiles" "^0.4.2"
+    "@undataforum/gatsby-theme-profiles" "^0.5.0"
     gatsby-image "^2.2.33"
     gatsby-plugin-compile-es6-packages "^2.1.0"
     gatsby-source-filesystem "^2.1.38"
@@ -2226,14 +2226,14 @@
     remark "^11.0.1"
     strip-markdown "^3.1.0"
 
-"@undataforum/gatsby-theme-events@0.3.2":
-  version "0.3.2"
-  resolved "https://registry.yarnpkg.com/@undataforum/gatsby-theme-events/-/gatsby-theme-events-0.3.2.tgz#08073a450f0a7a22d9eb1dbc8e43802d93b665b6"
-  integrity sha512-7YgPQbUXQ+M8N+0Y68XV7b/zw7CpSOVhpLCf6pcBEYdr5w2JoXUoajF0GN8gMHn44Leyq9t/dMLPJVEr5eF+hg==
+"@undataforum/gatsby-theme-events@0.3.4":
+  version "0.3.4"
+  resolved "https://registry.yarnpkg.com/@undataforum/gatsby-theme-events/-/gatsby-theme-events-0.3.4.tgz#544b11b7f099da446ff4fa7243e2b085cf14fc80"
+  integrity sha512-Ni7C3lJkmios1OT3TYJXIsRjlzWSxnHtSfOjHbMNne0jQHbGA2jjuiTzNC5eMYYKP+s86PcvpeijKxMaIBZzMw==
   dependencies:
     "@undataforum/components" "^0.56.0"
     "@undataforum/gatsby-theme-base" "^0.10.0"
-    "@undataforum/gatsby-theme-profiles" "^0.4.2"
+    "@undataforum/gatsby-theme-profiles" "^0.5.0"
     gatsby-image "^2.2.33"
     gatsby-plugin-compile-es6-packages "^2.1.0"
     gatsby-source-filesystem "^2.1.38"
@@ -2242,10 +2242,26 @@
     remark "^11.0.1"
     strip-markdown "^3.1.1"
 
-"@undataforum/gatsby-theme-profiles@0.4.2", "@undataforum/gatsby-theme-profiles@^0.4.2":
+"@undataforum/gatsby-theme-profiles@0.4.2":
   version "0.4.2"
   resolved "https://registry.yarnpkg.com/@undataforum/gatsby-theme-profiles/-/gatsby-theme-profiles-0.4.2.tgz#fd44cbdb7a3b6be950b2ed720cb5cc46ad11f9a2"
   integrity sha512-jpV65rfal7G54tpIZC9fk/UdN1hYyP4gArca/M4CMER1Me8Liuw89xTAWhVnr9LwzrPnl0bEuXdUR/90b8sudA==
+  dependencies:
+    "@undataforum/components" "^0.56.0"
+    "@undataforum/gatsby-theme-base" "^0.10.0"
+    gatsby-image "^2.2.6"
+    gatsby-plugin-compile-es6-packages "^2.1.0"
+    gatsby-plugin-sharp "^2.3.2"
+    gatsby-source-filesystem "^2.1.38"
+    gatsby-transformer-sharp "^2.3.0"
+    prop-types "^15.7.2"
+    remark "^11.0.1"
+    strip-markdown "^3.1.0"
+
+"@undataforum/gatsby-theme-profiles@^0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@undataforum/gatsby-theme-profiles/-/gatsby-theme-profiles-0.5.0.tgz#b7fd24046404a4ab0ccf9e0a5bd48fff2a4c6d39"
+  integrity sha512-nnBLAv7pfA21SDP1nFQ8IlA3XAZJerlZqc2zGAJV0cDAtT281cfs7giA0PE02tduW+4zHCFW4X9qIGKKExqsXw==
   dependencies:
     "@undataforum/components" "^0.56.0"
     "@undataforum/gatsby-theme-base" "^0.10.0"
