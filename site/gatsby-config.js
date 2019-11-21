@@ -7,6 +7,10 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: 'gatsby-theme-2020',
+      options: {},
+    },
+    {
       resolve: '@undataforum/gatsby-theme-blog',
       options: {
         basePath: '/blog',

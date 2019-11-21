@@ -9,7 +9,7 @@ const ShadowedHeader = props => (
     links={[
       { text: 'Blog', href: '/blog/' },
       { text: 'Events', href: '/events/' },
-      { text: 'Profiles', href: '/profiles/' },
+      { text: 'Committee', href: '/2020/committee/' },
     ]}
   />
 );

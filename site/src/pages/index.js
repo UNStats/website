@@ -26,7 +26,7 @@ const Homepage = ({ location, data }) => {
         links={[
           { href: '/blog/', text: 'Blog' },
           { href: '/events/', text: 'Events' },
-          { href: '/profiles/', text: 'Profiles' },
+          { href: '/2020/committee/', text: 'Committee' },
         ]}
         variant="transparent"
         position="absolute"
