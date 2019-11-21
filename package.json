@@ -2,7 +2,7 @@
   "private": true,
   "workspaces": [
     "site",
-    "2020"
+    "gatsby-theme-2020"
   ],
   "scripts": {
     "start": "yarn workspace site run develop",
