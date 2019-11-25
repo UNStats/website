@@ -24,9 +24,10 @@ const Homepage = ({ location, data }) => {
     <Layout location={location}>
       <Header
         links={[
-          { href: '/blog/', text: 'Blog' },
-          { href: '/events/', text: 'Events' },
-          { href: '/2020/committee/', text: 'Committee' },
+          { text: 'About', href: '/about/' },
+          { text: 'Committee', href: '/2020/committee/' },
+          { text: 'Events', href: '/events/' },
+          { text: 'Blog', href: '/blog/' },
         ]}
         variant="transparent"
         position="absolute"

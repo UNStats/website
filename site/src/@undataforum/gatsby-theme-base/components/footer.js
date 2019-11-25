@@ -17,6 +17,7 @@ const ShadowedFooter = props => {
         </Box>
       )}
       links={[
+        { text: 'About', href: '/about/' },
         { text: 'Contact', href: '/contact/' },
         { text: 'Copyright', href: '/copyright/' },
         { text: 'Privacy Notice', href: '/privacy/' },
