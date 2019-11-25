@@ -1,6 +1,6 @@
 ---
 title: Writing for the United Nations World Data Forum website
-description: A short guide on how to write for the World Data Forum website.
+description: A short guide on how to write for the United Nations World Data Forum website.
 ---
 
 ## Blog posts
