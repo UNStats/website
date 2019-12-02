@@ -21,7 +21,7 @@ const Homepage = ({ location, data }) => {
   const posts = data.allPost.nodes.map(normalizePost);
   const events = data.allEvent.nodes.map(normalizeEvent);
   return (
-    <Layout location={location}>
+    <Layout location={location} title="Homepage">
       <Header
         links={[
           { text: 'About', href: '/about/' },
