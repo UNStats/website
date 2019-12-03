@@ -7,6 +7,10 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: 'gatsby-theme-profiles',
+      options: {},
+    },
+    {
       resolve: 'gatsby-theme-2020',
       options: {},
     },

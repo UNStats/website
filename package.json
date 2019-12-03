@@ -2,6 +2,7 @@
   "private": true,
   "workspaces": [
     "site",
+    "gatsby-theme-profiles",
     "gatsby-theme-2020"
   ],
   "engines": {
