@@ -1,8 +1,8 @@
 {
   "private": true,
-  "name": "gatsby-theme-2020",
+  "name": "gatsby-theme-profiles",
   "version": "0.0.0",
-  "description": "Micro frontend for https://undataforum.org/2020.",
+  "description": "Micro frontend for https://undataforum.org/profiles.",
   "main": "index.js",
   "author": "Thilo Maier <maier@un.org>",
   "scripts": {
@@ -14,8 +14,6 @@
     "react-dom": "^16.12.0"
   },
   "dependencies": {
-    "@undataforum/components": "0.56.1",
-    "@undataforum/gatsby-theme-base": "0.10.1",
     "@undataforum/gatsby-theme-profiles": "0.5.2",
     "prop-types": "15.7.2"
   }
