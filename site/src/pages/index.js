@@ -26,7 +26,7 @@ const Homepage = ({ location, data }) => {
         links={[
           { text: 'About', href: '/about/' },
           { text: 'Committee', href: '/2020/committee/' },
-          { text: 'Events', href: '/events/' },
+          { text: 'Webinars', href: '/webinars/' },
           { text: 'Blog', href: '/blog/' },
         ]}
         variant="transparent"
@@ -94,7 +94,7 @@ const Homepage = ({ location, data }) => {
               gridArea: 'events',
             }}
           >
-            <Styled.h1>Events</Styled.h1>
+            <Styled.h1>Webinars</Styled.h1>
             <Grid gap={3} columns={1}>
               {events.map(({ id, ...event }) => (
                 <EventPreview event={{ ...event }} mb={3} key={id} />
