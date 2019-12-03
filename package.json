@@ -4,6 +4,9 @@
     "site",
     "gatsby-theme-2020"
   ],
+  "engines": {
+    "node": "12.x"
+  },
   "scripts": {
     "start": "yarn workspace site run develop",
     "build": "rm -rf public && yarn workspace site run build && mv site/public/ public",
