@@ -42,10 +42,7 @@ export const query = graphql`
   query {
     allProfile(
       sort: { fields: [lastName, firstName], order: ASC }
-      filter: {
-        type: { eq: "2020" }
-        roles: { in: "Programme Committee Member" }
-      }
+      filter: { roles: { in: "Programme Committee Member" } }
     ) {
       nodes {
         ...Profile
