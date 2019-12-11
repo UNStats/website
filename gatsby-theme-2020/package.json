@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "@undataforum/components": "0.59.0",
-    "@undataforum/gatsby-theme-profiles": "0.5.2",
+    "@undataforum/gatsby-theme-profiles": "0.5.3",
     "prop-types": "15.7.2"
   }
 }
