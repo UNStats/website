@@ -829,7 +829,7 @@
     "@emotion/utils" "0.11.3"
     "@emotion/weak-memoize" "0.2.5"
 
-"@emotion/core@^10.0.0", "@emotion/core@^10.0.21", "@emotion/core@^10.0.22":
+"@emotion/core@^10.0.0", "@emotion/core@^10.0.21", "@emotion/core@^10.0.22", "@emotion/core@^10.0.27":
   version "10.0.27"
   resolved "https://registry.yarnpkg.com/@emotion/core/-/core-10.0.27.tgz#7c3f78be681ab2273f3bf11ca3e2edc4a9dd1fdc"
   integrity sha512-XbD5R36pVbohQMnKfajHv43g8EbN4NHdF6Zh9zg/C0nr0jqwOw3gYnC07Xj3yG43OYSRyrGsoQ5qPwc8ycvLZw==
@@ -1647,14 +1647,24 @@
     semver "^6.3.0"
     tsutils "^3.17.1"
 
-"@undataforum/assets@0.3.0":
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/@undataforum/assets/-/assets-0.3.0.tgz#1bf0aa779ab0097c4b0a46c2bbddd1dae3d8d13a"
-  integrity sha512-znD31yZfDqUdlalp/hFXsyXm65+RHe8e3XCpG0ohtzRJBFAI8rwuwx701wPBopAZlL6ympzM20Lf4uflH5S6fw==
+"@undataforum/assets@0.4.1":
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/@undataforum/assets/-/assets-0.4.1.tgz#1a003cf68b3f907e9116b695a7e928125dccc36c"
+  integrity sha512-5qn2Wrm2HmRfh69MHrUWwkKjVhVBs7qqrlJfM0d/DL7n/QUJ3Qfn3o5NKj4KXldr50wAE25vxyz0XAzirVMyoQ==
   dependencies:
     prop-types "^15.7.2"
 
-"@undataforum/components@0.59.0", "@undataforum/components@^0.59.0":
+"@undataforum/components@0.67.0":
+  version "0.67.0"
+  resolved "https://registry.yarnpkg.com/@undataforum/components/-/components-0.67.0.tgz#70506e400e93347cd188fa775d1af21467dd4c50"
+  integrity sha512-Yo0rtwejkZGGQwWcAlnMO42rlfvnJUmZJUIZKNqqY4fS9B/maOEW3vRUafBU0sYHLNDDLTq6RVBrKq/5PNKULg==
+  dependencies:
+    "@emotion/core" "^10.0.27"
+    "@mdx-js/react" "^1.5.3"
+    "@theme-ui/components" "^0.2.45"
+    prop-types "^15.7.2"
+
+"@undataforum/components@^0.59.0":
   version "0.59.0"
   resolved "https://registry.yarnpkg.com/@undataforum/components/-/components-0.59.0.tgz#d82851f010ce0853bf6b6a98d4b0e13809613bb9"
   integrity sha512-vetP40DTaH2CHHEuhu0nvXhAqLwJSj87ipa0QZihJOcANNRjlNmYEB1xq5FJTG7VcoTtwURclJwE49RJz9DkBQ==
