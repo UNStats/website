@@ -1687,10 +1687,10 @@
     remark "^11.0.1"
     strip-markdown "^3.1.0"
 
-"@undataforum/gatsby-theme-events@0.5.0":
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/@undataforum/gatsby-theme-events/-/gatsby-theme-events-0.5.0.tgz#5948c16ff570fc1cc4ee3f659f91a1484ff92d3d"
-  integrity sha512-hvEiqNOAIhptA8Cygx8OwRsH2bA6Pa/3ujLcPRkMOf4yKzKzTqRMv6JX+YkI+jFtSRrTyf3k2Rv2Xrhs7ILNjw==
+"@undataforum/gatsby-theme-events@0.5.1":
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/@undataforum/gatsby-theme-events/-/gatsby-theme-events-0.5.1.tgz#52b3e92a51880b363fe516f6b498579368230789"
+  integrity sha512-efMBJDZom9MYmmvtRoUaGJqQALgSHhNxtDH0bpETW7P/J78e7EZCsfvANFmITDVhwXyN4N27H74Bmg/ztE5kvw==
   dependencies:
     "@undataforum/components" "^0.67.0"
     "@undataforum/gatsby-theme-base" "^0.11.0"
