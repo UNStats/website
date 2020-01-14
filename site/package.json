@@ -20,7 +20,7 @@
     "@undataforum/gatsby-theme-events": "0.4.1",
     "cross-env": "6.0.3",
     "deepmerge": "4.2.2",
-    "gatsby": "2.18.21",
+    "gatsby": "2.18.22",
     "gatsby-image": "2.2.38",
     "gatsby-source-filesystem": "2.1.46",
     "gatsby-theme-2020": "*",
