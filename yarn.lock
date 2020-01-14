@@ -829,7 +829,7 @@
     "@emotion/utils" "0.11.3"
     "@emotion/weak-memoize" "0.2.5"
 
-"@emotion/core@^10.0.0", "@emotion/core@^10.0.21", "@emotion/core@^10.0.22", "@emotion/core@^10.0.27":
+"@emotion/core@^10.0.0", "@emotion/core@^10.0.27":
   version "10.0.27"
   resolved "https://registry.yarnpkg.com/@emotion/core/-/core-10.0.27.tgz#7c3f78be681ab2273f3bf11ca3e2edc4a9dd1fdc"
   integrity sha512-XbD5R36pVbohQMnKfajHv43g8EbN4NHdF6Zh9zg/C0nr0jqwOw3gYnC07Xj3yG43OYSRyrGsoQ5qPwc8ycvLZw==
@@ -1229,7 +1229,7 @@
     unist-builder "1.0.4"
     unist-util-visit "2.0.1"
 
-"@mdx-js/react@^1.5.1", "@mdx-js/react@^1.5.3":
+"@mdx-js/react@^1.5.3":
   version "1.5.3"
   resolved "https://registry.yarnpkg.com/@mdx-js/react/-/react-1.5.3.tgz#e58c458c72b4618f9c8e16d76136e62a6d517515"
   integrity sha512-5bVLUsZybjmeYL8l4Uh/ysE8vMn0Vb0GKzki/LicaDHJvXr/N4Tjj0gT4tk1OzhcC5nGQAQGIyQMW5pvIjp9XQ==
@@ -1422,14 +1422,6 @@
   dependencies:
     defer-to-connect "^1.0.1"
 
-"@theme-ui/color@^0.2.49":
-  version "0.2.53"
-  resolved "https://registry.yarnpkg.com/@theme-ui/color/-/color-0.2.53.tgz#d4ac58b99639d1370c7e541bfeebb69f0036ca0c"
-  integrity sha512-Xz9146bG+tYZ9cJslAk1oq7hmlHmpso2bKLpjAW9O9382gWGNNoie44W0xi6XkVvDXtmnNei4nM/H5Wbtu9V0w==
-  dependencies:
-    "@styled-system/css" "^5.0.23"
-    polished "^3.4.1"
-
 "@theme-ui/components@^0.2.45":
   version "0.2.50"
   resolved "https://registry.yarnpkg.com/@theme-ui/components/-/components-0.2.50.tgz#ce5e6f102f48964a5f999bf23755d6ea57d3faf5"
@@ -1441,11 +1433,6 @@
     "@styled-system/css" "^5.0.23"
     "@styled-system/should-forward-prop" "^5.1.2"
     "@styled-system/space" "^5.1.2"
-
-"@theme-ui/preset-base@^0.2.44":
-  version "0.2.44"
-  resolved "https://registry.yarnpkg.com/@theme-ui/preset-base/-/preset-base-0.2.44.tgz#ae8e938288a534f129111a56b1971e1cc12ddc9d"
-  integrity sha512-g2BaHKz5/32wHIFoRifHxYikBJICqYx+weypA/zwz+d7rZTE9q+EgTvlFSdVlf1HtR2a3uLB1lp4se0tlI2zwg==
 
 "@types/color-name@^1.1.1":
   version "1.1.1"
@@ -1654,7 +1641,7 @@
   dependencies:
     prop-types "^15.7.2"
 
-"@undataforum/components@0.67.0":
+"@undataforum/components@0.67.0", "@undataforum/components@^0.67.0":
   version "0.67.0"
   resolved "https://registry.yarnpkg.com/@undataforum/components/-/components-0.67.0.tgz#70506e400e93347cd188fa775d1af21467dd4c50"
   integrity sha512-Yo0rtwejkZGGQwWcAlnMO42rlfvnJUmZJUIZKNqqY4fS9B/maOEW3vRUafBU0sYHLNDDLTq6RVBrKq/5PNKULg==
@@ -1664,101 +1651,78 @@
     "@theme-ui/components" "^0.2.45"
     prop-types "^15.7.2"
 
-"@undataforum/components@^0.59.0":
-  version "0.59.0"
-  resolved "https://registry.yarnpkg.com/@undataforum/components/-/components-0.59.0.tgz#d82851f010ce0853bf6b6a98d4b0e13809613bb9"
-  integrity sha512-vetP40DTaH2CHHEuhu0nvXhAqLwJSj87ipa0QZihJOcANNRjlNmYEB1xq5FJTG7VcoTtwURclJwE49RJz9DkBQ==
+"@undataforum/gatsby-theme-base@0.11.0", "@undataforum/gatsby-theme-base@^0.11.0":
+  version "0.11.0"
+  resolved "https://registry.yarnpkg.com/@undataforum/gatsby-theme-base/-/gatsby-theme-base-0.11.0.tgz#cffc48e08969cef25d21909dd0bd6bfbda75d705"
+  integrity sha512-3vIPNyZ2UG3TsPqr6oTway+C52UeiWFINI/M/aes/eUerd/081f3DQZV4yvMiTLOREpjVXXZl5GTnE2Tj8bj+A==
   dependencies:
-    "@emotion/core" "^10.0.21"
-    "@mdx-js/react" "^1.5.1"
-    "@theme-ui/color" "^0.2.49"
-    "@theme-ui/components" "^0.2.45"
-    "@theme-ui/preset-base" "^0.2.44"
-    deepmerge "^4.2.2"
-    prop-types "^15.7.2"
-    theme-ui "^0.2.44"
-
-"@undataforum/components@^0.62.0":
-  version "0.62.0"
-  resolved "https://registry.yarnpkg.com/@undataforum/components/-/components-0.62.0.tgz#f2635202bac48fbb9d1eeb5b391daee2c2b9187a"
-  integrity sha512-rIhz3v8k6N2e0i3S7NZ/r6kDLpG3rKK3ufrxL5BqjZlWRKldOhkBcaOqV84o2wb19/kKjkGDjhKif+ybS4hoUA==
-  dependencies:
-    "@emotion/core" "^10.0.21"
-    "@mdx-js/react" "^1.5.1"
-    "@theme-ui/components" "^0.2.45"
-    "@theme-ui/preset-base" "^0.2.44"
-    deepmerge "^4.2.2"
-    prop-types "^15.7.2"
-    theme-ui "^0.2.44"
-
-"@undataforum/gatsby-theme-base@0.10.3", "@undataforum/gatsby-theme-base@^0.10.1", "@undataforum/gatsby-theme-base@^0.10.2":
-  version "0.10.3"
-  resolved "https://registry.yarnpkg.com/@undataforum/gatsby-theme-base/-/gatsby-theme-base-0.10.3.tgz#acaa401b5f57fb9fb57e50aabf7e6dc1dfb4c4d9"
-  integrity sha512-djLc2p4Uf9q6zhMqIN/sk5FWSpSaEofyzd8cXLRU8dhv2UYuifbz9RxNiknEXr/8ZGVP+UW3yv4bamrvHlgjxw==
-  dependencies:
-    "@emotion/core" "^10.0.22"
     "@mdx-js/mdx" "^1.5.3"
     "@mdx-js/react" "^1.5.3"
-    "@undataforum/components" "^0.62.0"
+    "@undataforum/components" "^0.67.0"
+    "@undataforum/preset" "^0.1.2"
     deepmerge "^4.2.2"
-    gatsby-image "^2.2.37"
+    gatsby-image "^2.2.38"
     gatsby-plugin-compile-es6-packages "^2.1.0"
-    gatsby-plugin-mdx "^1.0.64"
-    gatsby-plugin-page-creator "^2.1.37"
-    gatsby-plugin-react-helmet "^3.1.18"
-    gatsby-plugin-sitemap "^2.2.24"
+    gatsby-plugin-mdx "^1.0.67"
+    gatsby-plugin-page-creator "^2.1.38"
+    gatsby-plugin-react-helmet "^3.1.21"
+    gatsby-plugin-sitemap "^2.2.25"
     gatsby-plugin-theme-ui "^0.2.53"
-    gatsby-remark-smartypants "^2.1.19"
+    gatsby-remark-smartypants "^2.1.20"
     prop-types "^15.7.2"
     react-helmet "^5.2.1"
-    theme-ui "^0.2.44"
 
-"@undataforum/gatsby-theme-blog@0.7.6":
-  version "0.7.6"
-  resolved "https://registry.yarnpkg.com/@undataforum/gatsby-theme-blog/-/gatsby-theme-blog-0.7.6.tgz#51eb7a32dd76911ec2b1d3d1322fe5e529811a06"
-  integrity sha512-LS29kt9MCWciC2LgZj/BbVFiYJOGzg1KsDDb83M7MyJHCcT8BQAjt3KEtmiLsZHpQkJ77tIcSn1LlB1AY6Cn2Q==
+"@undataforum/gatsby-theme-blog@0.8.0":
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/@undataforum/gatsby-theme-blog/-/gatsby-theme-blog-0.8.0.tgz#efe5324726989be65fe7ddd4c0d834944bbdb274"
+  integrity sha512-kMdz2YWhjNSwPEeU9isMFbgu1TLjljF6yCyA4l616OhYAXw61aEh86yUm22S6DMefAl1kjhKEt/f4cPVLYAnIQ==
   dependencies:
-    "@undataforum/components" "^0.59.0"
-    "@undataforum/gatsby-theme-base" "^0.10.1"
-    "@undataforum/gatsby-theme-profiles" "^0.5.3"
-    gatsby-image "^2.2.36"
+    "@undataforum/components" "^0.67.0"
+    "@undataforum/gatsby-theme-base" "^0.11.0"
+    "@undataforum/gatsby-theme-profiles" "^0.6.0"
+    gatsby-image "^2.2.38"
     gatsby-plugin-compile-es6-packages "^2.1.0"
-    gatsby-source-filesystem "^2.1.42"
+    gatsby-source-filesystem "^2.1.46"
     prop-types "^15.7.2"
     remark "^11.0.1"
     strip-markdown "^3.1.0"
 
-"@undataforum/gatsby-theme-events@0.4.1":
-  version "0.4.1"
-  resolved "https://registry.yarnpkg.com/@undataforum/gatsby-theme-events/-/gatsby-theme-events-0.4.1.tgz#ab63abf0abb77fb3b4364661c1cdcc3181080537"
-  integrity sha512-5wTSJKnstjcQhLsZBIUnIznJyLacWe5PKnOxO3JtAKmXryLIqGb7dzLYrnqeNgnS3i+e8JldHQEFgZ6bGmm/Rg==
+"@undataforum/gatsby-theme-events@0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@undataforum/gatsby-theme-events/-/gatsby-theme-events-0.5.0.tgz#5948c16ff570fc1cc4ee3f659f91a1484ff92d3d"
+  integrity sha512-hvEiqNOAIhptA8Cygx8OwRsH2bA6Pa/3ujLcPRkMOf4yKzKzTqRMv6JX+YkI+jFtSRrTyf3k2Rv2Xrhs7ILNjw==
   dependencies:
-    "@undataforum/components" "^0.59.0"
-    "@undataforum/gatsby-theme-base" "^0.10.2"
-    "@undataforum/gatsby-theme-profiles" "^0.5.3"
-    gatsby-image "^2.2.36"
+    "@undataforum/components" "^0.67.0"
+    "@undataforum/gatsby-theme-base" "^0.11.0"
+    "@undataforum/gatsby-theme-profiles" "^0.6.0"
+    gatsby-image "^2.2.38"
     gatsby-plugin-compile-es6-packages "^2.1.0"
-    gatsby-source-filesystem "^2.1.42"
+    gatsby-source-filesystem "^2.1.46"
     luxon "^1.21.2"
     prop-types "^15.7.2"
     remark "^11.0.1"
     strip-markdown "^3.1.1"
 
-"@undataforum/gatsby-theme-profiles@0.5.3", "@undataforum/gatsby-theme-profiles@^0.5.3":
-  version "0.5.3"
-  resolved "https://registry.yarnpkg.com/@undataforum/gatsby-theme-profiles/-/gatsby-theme-profiles-0.5.3.tgz#0a73449d7c40a8e7cfd5068cd096fdb721cd4c8d"
-  integrity sha512-oWY+7TLhLPuRvwB7Vx28IColuALWNYUFxnlgpNEKnSnzIte6dCfzcQeNuXW/jn+WvvMDU+AX4/hbNQHxyimIgg==
+"@undataforum/gatsby-theme-profiles@0.6.0", "@undataforum/gatsby-theme-profiles@^0.6.0":
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/@undataforum/gatsby-theme-profiles/-/gatsby-theme-profiles-0.6.0.tgz#0c7157a785e95159a0886ab1db476b56f712e62b"
+  integrity sha512-3s6MDrtScwAXb4jpT+aH8iZqDCelN3dkCpVX+fNVNvF0EIHLdOmLQucZfg425s13E3P8UcLZz/4hhKMeEtOBvw==
   dependencies:
-    "@undataforum/components" "^0.59.0"
-    "@undataforum/gatsby-theme-base" "^0.10.1"
-    gatsby-image "^2.2.6"
+    "@undataforum/components" "^0.67.0"
+    "@undataforum/gatsby-theme-base" "^0.11.0"
+    gatsby-image "^2.2.38"
     gatsby-plugin-compile-es6-packages "^2.1.0"
-    gatsby-plugin-sharp "^2.3.2"
-    gatsby-source-filesystem "^2.1.38"
-    gatsby-transformer-sharp "^2.3.0"
+    gatsby-plugin-sharp "^2.3.13"
+    gatsby-source-filesystem "^2.1.46"
+    gatsby-transformer-sharp "^2.3.12"
     prop-types "^15.7.2"
     remark "^11.0.1"
     strip-markdown "^3.1.0"
+
+"@undataforum/preset@^0.1.2":
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/@undataforum/preset/-/preset-0.1.2.tgz#d17d094d5d50779f4a4dd8e7a87eac44a2681172"
+  integrity sha512-jWP6GFtzyY8vch3Gx2ZBA5XR+l09s2XQssqvrXnUCbbLfIZ9lFb9oO07PyNZRxHIDKUXPp1ItiMMDimyYbkGIA==
 
 "@webassemblyjs/ast@1.8.5":
   version "1.8.5"
@@ -6020,7 +5984,7 @@ gatsby-graphiql-explorer@^0.2.32:
   dependencies:
     "@babel/runtime" "^7.7.6"
 
-gatsby-image@2.2.38, gatsby-image@^2.2.36, gatsby-image@^2.2.37, gatsby-image@^2.2.6:
+gatsby-image@2.2.38, gatsby-image@^2.2.38:
   version "2.2.38"
   resolved "https://registry.yarnpkg.com/gatsby-image/-/gatsby-image-2.2.38.tgz#52d970845eacdc1f91b2ffcb33c2fead5fc17b60"
   integrity sha512-r2g7hOwJx2LSZDSrk6tz2O77psC8VU5TMPbiAxE2Hw3RwkK3vII70L8jsUdZoifDcFnT3Xr7M9GbBmp27nfLAw==
@@ -6060,7 +6024,7 @@ gatsby-plugin-compile-es6-packages@^2.1.0:
     "@babel/runtime" "^7.0.0"
     regex-escape "^3.4.8"
 
-gatsby-plugin-mdx@^1.0.64:
+gatsby-plugin-mdx@^1.0.67:
   version "1.0.67"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-mdx/-/gatsby-plugin-mdx-1.0.67.tgz#1c2d80606a4c6b112164f46fad0a81b146603884"
   integrity sha512-PG1j8voD1hCBrj1blw1CqiJlXMv+QATVllvqClKl47GfCOZAuVj+VMN6O9WbImc5sVUw/SuvfCTOpk9H7gHlPw==
@@ -6101,7 +6065,7 @@ gatsby-plugin-mdx@^1.0.64:
     unist-util-remove "^1.0.3"
     unist-util-visit "^1.4.1"
 
-gatsby-plugin-page-creator@^2.1.37, gatsby-plugin-page-creator@^2.1.38:
+gatsby-plugin-page-creator@^2.1.38:
   version "2.1.38"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-page-creator/-/gatsby-plugin-page-creator-2.1.38.tgz#2c78d4baae296b0b3396cad689787a65c0a50585"
   integrity sha512-N/aIxHbjaJzed6O527Zj9sdeW3YjLs4aN3yt+rx/K121yIH6gs5TMzPdSfFTxEeXEGw4ZZijJ70MBIlK0UNdkQ==
@@ -6114,14 +6078,14 @@ gatsby-plugin-page-creator@^2.1.37, gatsby-plugin-page-creator@^2.1.38:
     lodash "^4.17.15"
     micromatch "^3.1.10"
 
-gatsby-plugin-react-helmet@^3.1.18:
+gatsby-plugin-react-helmet@^3.1.21:
   version "3.1.21"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-react-helmet/-/gatsby-plugin-react-helmet-3.1.21.tgz#659f31020295f42d017e2eb03175d73516ab824d"
   integrity sha512-6LZ2LEYTwqD+ZqyCH55mVpk2xEXbQoCTfijP1W4ZCQsKtpWGJP+vyd6b96FWVyEb2k5LsQ1u+jk4R8xXULSX+w==
   dependencies:
     "@babel/runtime" "^7.7.6"
 
-gatsby-plugin-sharp@^2.3.2:
+gatsby-plugin-sharp@^2.3.13:
   version "2.3.13"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-sharp/-/gatsby-plugin-sharp-2.3.13.tgz#664d24f148a59552ebcd2fa92bfdab0b8dc4e9d9"
   integrity sha512-4R6H7qGRFjyYIv5nqKXKh3yXNg0iK5XZXRi1yDP0IWsytKDo5CKgmX9XWrvoRSnlYj5TWOsv32nfeCbgUPK0Lw==
@@ -6147,7 +6111,7 @@ gatsby-plugin-sharp@^2.3.2:
     svgo "1.3.2"
     uuid "^3.3.3"
 
-gatsby-plugin-sitemap@^2.2.24:
+gatsby-plugin-sitemap@^2.2.25:
   version "2.2.25"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-sitemap/-/gatsby-plugin-sitemap-2.2.25.tgz#c3960fbd5eb42501dcad848c50afbfb4e8788cea"
   integrity sha512-W1yz5EhEBT1je0a7+fr5T8/SxSfg9xGkVV6VV4Jt7RFBE8j2fNMcpfHpxcp1iiYM19y1fTJmM3OUNjBXANMCdQ==
@@ -6171,7 +6135,7 @@ gatsby-react-router-scroll@^2.1.20:
     scroll-behavior "^0.9.10"
     warning "^3.0.0"
 
-gatsby-remark-smartypants@^2.1.19:
+gatsby-remark-smartypants@^2.1.20:
   version "2.1.20"
   resolved "https://registry.yarnpkg.com/gatsby-remark-smartypants/-/gatsby-remark-smartypants-2.1.20.tgz#d081d93d50b0f1b48dc2b4d660ef6c2b72c00f97"
   integrity sha512-kvCW8GuXLoqmWp+JQeMuK5x4u+6ObrOInup+hVsxdv5J4FGYACXQYGGf+QgeC7vsBh15J+ha0ZIAOBwB/tSGSQ==
@@ -6181,7 +6145,7 @@ gatsby-remark-smartypants@^2.1.19:
     retext-smartypants "^3.0.3"
     unist-util-visit "^1.4.1"
 
-gatsby-source-filesystem@2.1.46, gatsby-source-filesystem@^2.1.38, gatsby-source-filesystem@^2.1.42:
+gatsby-source-filesystem@2.1.46, gatsby-source-filesystem@^2.1.46:
   version "2.1.46"
   resolved "https://registry.yarnpkg.com/gatsby-source-filesystem/-/gatsby-source-filesystem-2.1.46.tgz#ab90c4520f0664218c7334dbec6cd90acc85cf9d"
   integrity sha512-5LC90+qMKK+/hJzZxKcazx5JvvOO1wHH+ZE7JDSHSzZ1QB+RKWnkvG4a7n6dyiFybo1HN3ql5YQXQLkBEiIfMg==
@@ -6225,7 +6189,7 @@ gatsby-telemetry@^1.1.47:
     stack-utils "1.0.2"
     uuid "3.3.3"
 
-gatsby-transformer-sharp@^2.3.0:
+gatsby-transformer-sharp@^2.3.12:
   version "2.3.12"
   resolved "https://registry.yarnpkg.com/gatsby-transformer-sharp/-/gatsby-transformer-sharp-2.3.12.tgz#089650dc75d6f133d53a7403e76f6b37060a287f"
   integrity sha512-Ot/BHucuuF7DuL58fHqvLbN1THw0f1NSY/SGpdjqOzPDDYMs4JUZbaj9iQFoaXLUD76Ubbcng6WxTeE4zLf2pA==
@@ -10331,13 +10295,6 @@ pnp-webpack-plugin@^1.5.0:
   dependencies:
     ts-pnp "^1.1.2"
 
-polished@^3.4.1:
-  version "3.4.2"
-  resolved "https://registry.yarnpkg.com/polished/-/polished-3.4.2.tgz#b4780dad81d64df55615fbfc77acb52fd17d88cd"
-  integrity sha512-9Rch6iMZckABr6EFCLPZsxodeBpXMo9H4fRlfR/9VjMEyy5xpo1/WgXlJGgSjPyVhEZNycbW7UmYMNyWS5MI0g==
-  dependencies:
-    "@babel/runtime" "^7.6.3"
-
 portfinder@^1.0.25:
   version "1.0.25"
   resolved "https://registry.yarnpkg.com/portfinder/-/portfinder-1.0.25.tgz#254fd337ffba869f4b9d37edc298059cb4d35eca"
@@ -13014,7 +12971,7 @@ text-table@0.2.0, text-table@^0.2.0:
   resolved "https://registry.yarnpkg.com/text-table/-/text-table-0.2.0.tgz#7f5ee823ae805207c00af2df4a84ec3fcfa570b4"
   integrity sha1-f17oI66AUgfACvLfSoTsP8+lcLQ=
 
-theme-ui@^0.2.44:
+theme-ui@^0.2.52:
   version "0.2.52"
   resolved "https://registry.yarnpkg.com/theme-ui/-/theme-ui-0.2.52.tgz#c041a32b0b257fc8ecbae273e14e92abd48c0f2d"
   integrity sha512-JFujorP5aFxIm1UyVCtefN5baXjwh5TXHKFYNWgAP+3rqVvggIr46uSMrRNvDjyhFOQiMK8YI8ctPQrrhcETpw==
