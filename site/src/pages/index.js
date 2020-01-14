@@ -2,64 +2,22 @@ import React from 'react';
 import { shape, string, object } from 'prop-types';
 import {
   Box,
-  Card,
   Container,
   EventPreview,
   Grid,
-  Header,
-  Hero,
   PostPreview,
 } from '@undataforum/components';
 import { Layout, Styled } from '@undataforum/gatsby-theme-base';
 import { graphql } from 'gatsby';
 import { normalize as normalizePost } from '@undataforum/gatsby-theme-blog';
 import { normalize as normalizeEvent } from '@undataforum/gatsby-theme-events';
-import { Logo } from '@undataforum/assets';
-import Img from 'gatsby-image';
 
 const Homepage = ({ location, data }) => {
   const posts = data.allPost.nodes.map(normalizePost);
   const events = data.allEvent.nodes.map(normalizeEvent);
   return (
     <Layout location={location} title="Homepage">
-      <Header
-        links={[
-          { text: 'About', href: '/about/' },
-          { text: 'Committee', href: '/2020/committee/' },
-          { text: 'Webinars', href: '/webinars/' },
-          { text: 'Blog', href: '/blog/' },
-        ]}
-        variant="transparent"
-        position="absolute"
-        top={0}
-        right={0}
-        left={0}
-      />
-      <Hero
-        image={() => (
-          <Img
-            style={{ height: '100%', width: '100%' }}
-            fluid={data.hero.nodes[0].fluid}
-          />
-        )}
-        logo={() => <Logo scaleTo="height" />}
-        text="18-21 October 2020 in Bern, Switzerland"
-        action={{
-          text: 'Submit your proposal',
-          href: '/2020/call-for-proposals',
-        }}
-        promo={() => {
-          // Remove description due to space constraints.
-          const event = { ...events[0], description: undefined };
-          return (
-            <Card sx={{ maxWidth: 512, variant: 'pairings.branded' }}>
-              <EventPreview event={event} />
-            </Card>
-          );
-        }}
-        mb={3}
-      />
-      <Container>
+      <Container sx={{ maxWidth: 'width.default', px: [2, 3, 4] }}>
         <Box
           sx={{
             display: 'grid',
