@@ -1,7 +1,6 @@
 import React from 'react';
-import { shape, string, object } from 'prop-types';
+import { shape, object } from 'prop-types';
 import {
-  Box,
   Container,
   EventPreview,
   Grid,
@@ -12,54 +11,59 @@ import { graphql } from 'gatsby';
 import { normalize as normalizePost } from '@undataforum/gatsby-theme-blog';
 import { normalize as normalizeEvent } from '@undataforum/gatsby-theme-events';
 
-const Homepage = ({ location, data }) => {
+import Hero from '../components/hero';
+import About from '../components/about';
+import Experience from '../components/experience';
+
+// If you change the hero image, you need to update the page query:
+// - update filename regex,
+// - update maxWidth to avoid blurry images.
+const Homepage = ({ data }) => {
   const posts = data.allPost.nodes.map(normalizePost);
   const events = data.allEvent.nodes.map(normalizeEvent);
+  // eslint-disable-next-line no-unused-vars
+  const { description, ...promotedEvent } = events[0];
   return (
-    <Layout location={location} title="Homepage">
-      <Container sx={{ maxWidth: 'width.default', px: [2, 3, 4] }}>
-        <Box
-          sx={{
-            display: 'grid',
-            gridTemplateAreas: [
-              '"posts" "events"',
-              '"posts" "events"',
-              '"posts posts posts events events"',
-            ],
-            gridTemplateColumns: ['1fr', '1fr', 'repeat(5, 1fr)'],
-            gridGap: [3, 4, 5],
-          }}
-        >
-          <Box
-            sx={{
-              gridArea: 'posts',
+    <Layout title="Homepage" description={data.site.siteMetadata.description}>
+      <Hero
+        alt="View of Bern, Switzerland. The river Aare with its distinct blue water is in the foreground. The city with its landmark cathedral and typical Swiss town houses are in the center."
+        title="View of Bern"
+        fluid={data.hero.nodes[0].fluid}
+        event={() => (
+          <EventPreview
+            event={promotedEvent}
+            colors={{
+              text: 'background',
+              background: 'secondary',
+              accent: 'background',
             }}
-          >
-            <Styled.h1>Blog</Styled.h1>
-            <Grid gap={3} columns={1}>
-              {posts.map(({ id, ...post }) => (
-                <PostPreview
-                  post={{ ...post }}
-                  fontSize={[3, 4]}
-                  mb={3}
-                  key={id}
-                />
-              ))}
-            </Grid>
-          </Box>
-          <Box
-            sx={{
-              gridArea: 'events',
-            }}
-          >
-            <Styled.h1>Webinars</Styled.h1>
-            <Grid gap={3} columns={1}>
-              {events.map(({ id, ...event }) => (
-                <EventPreview event={{ ...event }} mb={3} key={id} />
-              ))}
-            </Grid>
-          </Box>
-        </Box>
+            align={['center', 'start']}
+          />
+        )}
+        mt={-3}
+        mb={[4, 5]}
+      />
+      <About mb={[4, 5]} />
+      <Experience mb={[4, 5]} />
+      <Container
+        sx={{
+          maxWidth: 'width.default',
+          px: [2, 3, 4],
+          mb: 4,
+        }}
+      >
+        <Styled.h1>Webinars</Styled.h1>
+        <Grid gap={[4, 5]} columns={[1, null, 2]} sx={{ mb: [4, 5] }}>
+          {events.map(({ id, ...event }) => (
+            <EventPreview event={{ ...event }} key={id} />
+          ))}
+        </Grid>
+        <Styled.h1>Blog</Styled.h1>
+        <Grid gap={[4, 5]} columns={[1, null, 2]} sx={{ mb: [4, 5] }}>
+          {posts.map(({ id, ...post }) => (
+            <PostPreview post={{ ...post }} fontSize={[3, 4]} key={id} />
+          ))}
+        </Grid>
       </Container>
     </Layout>
   );
@@ -70,15 +74,19 @@ Homepage.propTypes = {
     allPost: object.isRequired,
     allEvent: object.isRequired,
   }).isRequired,
-  location: shape({ pathname: string.isRequired }).isRequired,
 };
 
 export default Homepage;
 
 export const query = graphql`
   {
+    site {
+      siteMetadata {
+        description
+      }
+    }
     allPost(
-      limit: 3
+      limit: 4
       sort: { fields: date, order: DESC }
       filter: { type: { eq: "post" } }
     ) {
@@ -86,15 +94,19 @@ export const query = graphql`
         ...Post
       }
     }
-    allEvent(limit: 2, filter: { type: { eq: "event" } }) {
+    allEvent(limit: 4, filter: { type: { eq: "event" } }) {
       nodes {
         ...Event
       }
     }
-    hero: allImageSharp(filter: { original: { src: { regex: "/hero/" } } }) {
+    hero: allImageSharp(
+      filter: {
+        original: { src: { regex: "/will-truettner-aigrKLc6xc0-unsplash/" } }
+      }
+    ) {
       nodes {
         id
-        fluid {
+        fluid(maxWidth: 4912) {
           ...GatsbyImageSharpFluid_withWebp
         }
       }
