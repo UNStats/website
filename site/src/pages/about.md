@@ -1,9 +1,5 @@
 ---
 title: About
-description:
-  'The third United Nations World Data Forum will be hosted by the Swiss
-  Confederation, with substantive support from the Federal Statistical Office,
-  from 18–21 October 2020 in Bern, Switzerland.'
 ---
 
 Following one of the main recommendations contained in the report entitled
@@ -33,5 +29,5 @@ Africa. The second United Nations World Data Forum was hosted by the
 from 22–24 October 2018 in Dubai. The third United Nations World Data Forum will
 be hosted by the [Swiss Confederation](https://www.admin.ch/gov/en/start.html),
 with substantive support from the
-[Federal Statistical Office](https://www.bfs.admin.ch/bfs/en/home.html), from
-18–21 October 2020 in Bern, Switzerland.
+[Swiss Federal Statistical Office](https://www.bfs.admin.ch/bfs/en/home.html),
+from 18–21 October 2020 in Bern, Switzerland.
