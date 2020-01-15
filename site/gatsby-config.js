@@ -3,7 +3,7 @@ module.exports = {
     title: 'United Nations World Data Forum',
     siteUrl: 'https://undataforum.org',
     description:
-      'The third United Nations World Data Forum will be hosted by the Swiss Confederation, with substantive support from the Federal Statistical Office, from 18–21 October 2020 in Bern, Switzerland.',
+      'The third United Nations World Data Forum will be hosted by the Swiss Confederation, with substantive support from the Swiss Federal Statistical Office, from 18–21 October 2020 in Bern, Switzerland.',
   },
   plugins: [
     {
