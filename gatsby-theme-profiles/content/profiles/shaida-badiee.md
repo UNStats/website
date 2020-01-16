@@ -38,5 +38,5 @@ coordinate technical and financial support for statistics through initiatives
 like the
 [Marrakech Action Plan for Statistics](https://www.worldbank.org/en/data/statistical-capacity-building/marrakech-action-plan-for-statistics).
 
-Shaida also served on the Programme Committee for the 2018 United Nations World
-Data Forum.
+Shaida also served on the Programme Committee for the United Nations World Data
+Forum 2018.
