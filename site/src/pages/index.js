@@ -94,7 +94,11 @@ export const query = graphql`
         ...Post
       }
     }
-    allEvent(limit: 4, filter: { type: { eq: "event" } }) {
+    allEvent(
+      limit: 4
+      sort: { fields: startDate, order: DESC }
+      filter: { type: { eq: "event" } }
+    ) {
       nodes {
         ...Event
       }
