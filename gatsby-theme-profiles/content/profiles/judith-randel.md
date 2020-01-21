@@ -4,9 +4,6 @@ lastName: Randel
 jobtitle: Co-founder
 organization: Development Initiatives
 avatar: ../assets/judith-randel.jpg
-twitter:
-roles:
-  - Programme Committee Member
 ---
 
 Judith Randel is a co-founder of [Development Initiatives](http://devinit.org/),
