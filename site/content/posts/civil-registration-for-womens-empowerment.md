@@ -1,0 +1,112 @@
+---
+title: "Civil registration as a tool for women's empowerment"
+date: 2018-09-12
+authors:
+  - irina-dincu
+  - thando-malambo
+images:
+  - ../assets/posts/empower-women-and-girls.jpg
+---
+
+import { Image } from '@undataforum/gatsby-theme-blog';
+
+On February 26th, the
+[Centre of Excellence for Civil Registration and Vital Statistics (CRVS) Systems](https://crvssystems.ca/)
+at the [International Development Research Centre (IDRC)](https://www.idrc.ca/)
+and its partners hosted a high-level panel and technical consultation sessions
+on gender and CRVS
+["Making the Invisible Visible: CRVS as a basis to meeting the 2030 Gender Agenda"](https://crvssystems.ca/sites/default/files/inline-files/IDRC_CRVS_Gender_Report_Final_EN_1.pdf).
+The meeting was the first of its kind to focus solely on the gender dimensions
+of CRVS systems and the barriers women and girls face when registering vital
+life events.
+
+Six months have passed since that meeting and, with hundreds descending on Dubai
+to discuss the role of data in achieving the Sustainable Development Goals
+(SDGs), the United Nations World Data Forum presents a unique opportunity to
+reignite the conversations around CRVS and gender. The Centre of Excellence for
+CVRS plans to take full advantage of the rare occasion where statisticians,
+civil registrars, gender experts, and policy-makers are all gathered under one
+roof.
+
+CRVS systems are particularly beneficial to women and girls, as vital statistics
+provide sex-disaggregated demographic data on key issues such as population
+distribution and maternal mortality. Because civil registration is continuous
+and universal, these statistics are a powerful source of information on a
+sub-national level at a more frequent interval than population censuses. By
+providing proof of legal identity and social relationships, civil registration
+also makes it easier for women to access crucial services such as health,
+education, political representation, and to lay claim to inheritance and/or
+property rights.
+
+<Image
+  fluid={props.images[0]}
+  title="Empower women and girls"
+  alt="Proof of marriage registration can affirm a woman's legal status, protecting her rights to inheritance after the death of a parent or spouse. Legal proof of age and identity can also help reduce child marriage and tackle associated health crises resulting from early pregnancies."
+/>
+
+The impacts of a well-functioning system are beyond that of only the individual.
+CRVS play a key role in assisting countries to measure and to meet their SDGs:
+[24 of the SDG targets](https://unstats.un.org/unsd/demographic/crvs/Global_CRVS_Docs/news/CRVS_and_the_SDGs_2016.pdf)
+and
+[67 indicators](http://documents.worldbank.org/curated/en/979321495190619598/pdf/115150-WP-CRVS-for-Monitoring-the-SDGs-web-version-May-18-2017-PUBLIC.pdf)
+can be measured effectively by using data derived from well-functioning CRVS
+systems. These systems are a must-have for generating the data countries need
+for the "Leave no one behind" agenda. However, women still face many financial,
+cultural, and legal barriers to realizing the benefits of CRVS, such as the cost
+of registration; requirements of a husband's presence for a child's
+registration; the system's failure to capture customary marriages; burial
+practices; and inheritance laws. More understanding is needed to overcome these
+barriers, specifically how to do so within a country's unique political and
+cultural context.
+
+Unfortunately, there is a dearth of strong case studies which explore the
+successes or failures of these interventions. As such, there remains a knowledge
+gap on proximate constraints and underlying factors that may influence the
+registration of different vital events for women and girls. And while there has
+been a growing recognition over the last several years of the importance of
+strong CRVS systems, gendered barriers and inequalities are often overlooked.
+Burning questions around CRVS and gender remain:
+
+- **Examine barriers and hidden biases:** What gender biases exist in the legal
+  systems that govern civil registration? How do the current legal frameworks
+  discourage or prohibit women from registering vital life events such as their
+  child's birth or their own marriage? What are cultural, economic or social
+  barriers may prevent women and girls from registering their vital events?
+
+- **Uncover the gaps:** Where are the registration data gaps? Where are women
+  least likely to be counted, registered or recognized? How can we increase
+  demand for registration among these vulnerable populations? How can we better
+  engage men to ensure that vital events pertaining to their daughters and wives
+  are legally recorded?
+- **Develop a strategy:** How should countries register different types of
+  marriages, especially those that are least likely to be registered or
+  recognized? How can we develop evidence based strategies or design programs
+  that facilitate registration of vital events for women and girls?
+- **Build capacity, share knowledge and increase data use and impact:** How can
+  countries strengthen their technical and administrative capacities? On the
+  local level, how can registration authorities more efficiently register
+  marriage and divorces? How can we increase data use and promote
+  evidenced-based policy making?
+
+Striving to answer the questions above, the Centre of Excellence for CRVS
+Systems has set out to inspire a global commitment to integrate gender issues in
+CRVS systems by continuing to discuss the status of the field, evaluating
+opportunities and challenges, as well as identifying priority areas of research
+and action to strengthen CRVS systems. We are looking forward to participating
+in several sessions on the topic in Dubai specifically _"A new era for Civil
+Registration and Vital Statistics systems: innovation and transformation to
+develop capacities, reduce gender inequities, and improve data for the SDGs"_,
+on Wednesday 24 Oct 2019.
+
+Alongside our partners [Open Data Watch](https://opendatawatch.com/), we will
+also be launching a compendium of
+["Knowledge Briefs on Gender and CRVS"](https://crvssystems.ca/sites/default/files/inline-files/CRVS_Gender_1.3_Harnessing%20CRVS%20Systems_e_WEB.pdf).
+The purpose of the knowledge briefs is to share and promote research and policy
+papers in gender and CRVS, and to synthesize, publish and socialize key
+messages, innovative case examples and emerging findings. The knowledge briefs
+will serve to promote the adoption of good practices by keeping the dialogue on
+the importance of CRVS systems for the global gender agenda ongoing. The Centre
+of Excellence for CRVS is working to connect and convene relevant stakeholders
+to ensure that CRVS systems count, work for and empower women and girls
+everywhere. The United Nations World Data Forum in Dubai is the perfect platform
+to do just that.
