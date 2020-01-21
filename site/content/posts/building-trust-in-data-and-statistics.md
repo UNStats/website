@@ -1,0 +1,96 @@
+---
+title: Building trust in data and statistics
+date: 2018-01-25
+authors:
+  - shaida-badiee
+images:
+  - ../assets/posts/building-trust-in-data-and-statistics.jpg
+---
+
+import { Image } from '@undataforum/gatsby-theme-blog';
+
+The 2018 United Nations World Data Forum promises to be an exciting event,
+bringing together communities of data users and data producers, researchers, and
+policy makers. It is a unique United Nations led undertaking. Over three days,
+from 22–24 October, we will all be "data people" and regarded as equals, no
+matter our organizational affiliation. We will all have a voice and an
+opportunity to share our expertise and vision for a better world served by
+better data.
+
+Like the first United Nations World Data Forum, the 2018 United Nations World
+Data Forum is organized around themes. Theme 5 is building trust in data and
+statistics. This topic is very important and of particular interest and
+relevance today as the specter of "fake news" and "alternative facts" looms
+around us. More than ever, we need to build trust in data throughout the data
+value chain, from production and analysis to dissemination and use, data is
+impacting decisions that affect the lives of all people. The United Nations
+World Data Forum will be a great occasion to discuss what it takes to achieve
+this goal.
+
+So what do we need to discuss at the United Nations World Data Forum in October?
+Let's start by thinking about what the data ecosystem of 2030 could look like,
+what we want to achieve, but also what we want to avoid, and use that as a guide
+to identify the issues we need to address.
+
+## What do we want for a 2030 data ecosystem?
+
+- **Hope to achieve:** A world where data are part of the DNA and culture of
+  decision-making, used by all and valued as an important public good. A world
+  where citizens trust the systems that produce data and have the skills and
+  means to use and verify their quality and accuracy. A world where there are
+  safeguards in place to protect privacy, while bringing the benefits of open
+  data to all. In this world, countries value their national statistical
+  systems, which are working independently with trusted partners in the public
+  and private sectors and citizens to continuously meet the changing and
+  expanding demands from data users and policy makers. Private sector data
+  generators are generously sharing their data with the public sector. And gaps
+  in data are closing, making the dream of leaving no one behind come true, with
+  the
+  [Sustainable Development Goals](https://sustainabledevelopment.un.org/sdgs) on
+  the path to being met by 2030.
+
+- **Hope to avoid:** A world where large corporations control the bulk of
+  national and international data and statistics with only limited sharing with
+  the public sector, academics, and citizens. The culture of "every man for
+  himself" and "who pays, wins" dominates data sharing practices. National
+  statistical systems are under-resourced and under-valued, with low trust from
+  users, further weakening them and undermining their independence from
+  political interference and their ability to control quality. The divide
+  between those who have and those who do not have access, skills, and the
+  ability to use data for decision-making and policy has widened. Data systems
+  and their promise to count the uncounted and leave no one behind are falling
+  behind due to low capacity and poor standards and institutions, and the hope
+  of the 2030 agenda is fading.
+
+With this vision in mind, are we on the right path? An optimist would say we are
+closer to the data ecosystem that we want to achieve. However, there are also
+some examples of movement in the wrong direction. There is no magic wand to make
+our wish come true, but a powerful enabler would be building trust in data and
+statistics. Therefore, this should be included as a goal in all our data
+strategies and action plans. Here are some important building blocks underlying
+trust in data and statistics:
+
+1. Building strong organizational infrastructure, governance, and partnerships;
+1. Following sound data standards and principles for production, sharing,
+   interoperability, and dissemination; and
+1. Addressing the last mile in the data value chain to meet users' needs, create
+   value with data, and ensure meaningful impacts.
+
+<Image
+  fluid={props.images[0]}
+  title="Building trust in data and statistics."
+  alt="The digram shows the three important building blocks underlying trust in data and statistics (mentioned in the enumerated list.)"
+/>
+
+I encourage all our expert colleagues and partners to propose relevant and
+vibrant sessions for theme 5 of this year's United Nations World Forum and share
+their expertise widely. At the previous United Nations World Forum, we had
+twelve sessions on
+[open data](http://opendatawatch.com/blog/breakthroughs-for-open-data-at-un-world-data-forum/),
+data interoperability, data standards, and principles, which launched many
+important initiatives. As we take stock of our progress and make ambitious plans
+for the future, we must keep in the mind the responsibility we all share to
+demonstrate that we work in the public interest and that the public's trust in
+data and statistics is justified. Trust is not easy to achieve or maintain, but
+it is easy to lose. The path to the data ecosystem we want for 2030, is a path
+that leads to trust in this ecosystem.
