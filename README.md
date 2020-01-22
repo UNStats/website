@@ -1,7 +1,13 @@
-# United Nations World Data Forum main website
+# United Nations World Data Forum website
 
-This is the repository for https://undataforum.org. This is a [Gatsby](https://www.gatsbyjs.org/) site built with [gatsby-theme-undataforum](https://www.npmjs.com/package/gatsby-theme-undataforum).
+This is the repository for https://undataforum.org. This is a monorepo that
+contains the following workspaces that manage parts of
+[undataforum.org](https://undataforum.org):
 
-## License
+| Workspace               | Description                                                    |
+| :---------------------- | :------------------------------------------------------------- |
+| `site`                  | Manages all paths that are not managed by any other workspace. |
+| `gatsby-theme-2020`     | Manages `/2020`.                                               |
+| `gatsby-theme-profiles` | Manages `/profiles`.                                           |
 
-The content of this project itself is copyright United Nations, and the underlying source code used to format and display that content is licensed under the [MIT license](LICENSE.md).
+All content in this repository is copyright United Nations.
