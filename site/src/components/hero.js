@@ -6,6 +6,7 @@ import {
   Container,
   Flex,
   Grid,
+  SmartLink,
   Text,
 } from '@undataforum/components';
 import Img from 'gatsby-image';
@@ -129,7 +130,9 @@ const Hero = ({ fluid, title, alt, event, ...props }) => (
           2020 is open. Please submit your proposals through 31 January 2020.
         </Text>
         <Button sx={{ variant: 'pairings.branded' }}>
-          Submit your proposal
+          <SmartLink href="/2020/call-for-session-proposals/">
+            Submit your proposal
+          </SmartLink>
         </Button>
       </Flex>
       <Box
