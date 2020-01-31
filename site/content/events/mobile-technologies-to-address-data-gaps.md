@@ -12,7 +12,7 @@ speakers:
   - siim-esko
 ---
 
-import { Box, Video } from '@undataforum/components';
+import { Box } from 'theme-ui'; import { Video } from '@undataforum/components';
 
 Addressing the challenges to meet the
 [2030 Agenda for Sustainable Development](https://sustainabledevelopment.un.org/post2015/transformingourworld)

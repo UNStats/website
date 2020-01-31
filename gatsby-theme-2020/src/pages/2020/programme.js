@@ -1,8 +1,9 @@
 import React, { Fragment } from 'react';
 import { shape, object } from 'prop-types';
 import { graphql } from 'gatsby';
-import { Layout, MDXRenderer, Styled } from '@undataforum/gatsby-theme-base';
-import { Container, SmartLink } from '@undataforum/components';
+import { Container, Styled } from 'theme-ui';
+import { Layout, MDXRenderer } from '@undataforum/gatsby-theme-base';
+import { SmartLink } from '@undataforum/components';
 
 const ProgrammePage = ({ data }) => {
   const thematicAreas = data.allMdx.nodes.map(

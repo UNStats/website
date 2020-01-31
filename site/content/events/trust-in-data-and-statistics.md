@@ -12,7 +12,7 @@ speakers:
   - hernan-munoz
 ---
 
-import { Box, Video } from '@undataforum/components';
+import { Box } from 'theme-ui'; import { Video } from '@undataforum/components';
 
 Building on the plenary session
 [Increasing trust in data and statistics (TA5.01)](https://unstats.un.org/unsd/undataforum/sessions/ta5-01-increasing-trust-in-data-and-statistics/)
