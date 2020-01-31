@@ -1,11 +1,12 @@
 ---
 id: TA6
+color: gray
 title: How far have we come?
+subtitle:
+  A look at the implementation of the Cape Town Global Action Plan; addressing
+  emerging challenges of fully harnessing the power of data to improve people's
+  lives.
 ---
-
-_A look at the implementation of the Cape Town Global Action Plan; addressing
-emerging challenges of fully harnessing the power of data to improve people's
-lives._
 
 This thematic area is about taking stock of how far we have progressed, and
 taking practical steps towards fulfilling the implementation of the

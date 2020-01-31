@@ -1,11 +1,12 @@
 ---
 id: TA4
+color: red
 title: Understanding the world through data
+subtitle:
+  Making data and statistics relevant and usable to all users; increasing data
+  and statistical literacy and data communication; strengthening the use of data
+  in journalism.
 ---
-
-_Making data and statistics relevant and usable to all users; increasing data
-and statistical literacy and data communication; strengthening the use of data
-in journalism._
 
 This thematic area covers data and statistical literacy and the importance of a
 proper use of data and statistics to understand the world around us. Sessions in
