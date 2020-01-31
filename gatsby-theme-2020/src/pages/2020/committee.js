@@ -2,7 +2,7 @@ import React from 'react';
 import { object, shape, string } from 'prop-types';
 import { graphql } from 'gatsby';
 import { ProfilesPage, normalize } from '@undataforum/gatsby-theme-profiles';
-import { Text } from '@undataforum/components';
+import { Text } from 'theme-ui';
 
 const CommitteePage = ({ data, location }) => {
   // Normalize profiles and add href.

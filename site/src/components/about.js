@@ -1,5 +1,6 @@
 import React from 'react';
-import { Container, Text, SmartLink } from '@undataforum/components';
+import { Container, Text } from 'theme-ui';
+import { SmartLink } from '@undataforum/components';
 
 const About = ({ ...props }) => (
   <Container

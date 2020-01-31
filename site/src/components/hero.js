@@ -1,14 +1,7 @@
 import React from 'react';
 import { object, string, func } from 'prop-types';
-import {
-  Box,
-  Button,
-  Container,
-  Flex,
-  Grid,
-  SmartLink,
-  Text,
-} from '@undataforum/components';
+import { Box, Button, Container, Flex, Grid, Text } from 'theme-ui';
+import { SmartLink } from '@undataforum/components';
 import Img from 'gatsby-image';
 
 const Hero = ({ fluid, title, alt, event, ...props }) => (
