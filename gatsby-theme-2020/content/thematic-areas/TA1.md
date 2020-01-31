@@ -1,9 +1,9 @@
 ---
 id: TA1
+color: forumBlue
 title: New approaches to capacity development for better data
+subtitle: Supporting broad data ecosystems in countries.
 ---
-
-_Supporting broad data ecosystems in countries._
 
 This thematic area covers new approaches to capacity development to address the
 changing needs of data producers and data users in the context of new

@@ -1,10 +1,11 @@
 ---
 id: TA2
+color: blue
 title: Innovations and synergies across data ecosystems
+subtitle:
+  Bringing data sources together and creating an enabling environment for the
+  integration and use of non-traditional data sources.
 ---
-
-_Bringing data sources together and creating an enabling environment for the
-integration and use of non-traditional data sources._
 
 This thematic area addresses innovations and synergies across different data
 communities by creating an enabling environment for the integration and use of

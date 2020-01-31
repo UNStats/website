@@ -1,13 +1,19 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import { shape, object } from 'prop-types';
 import { graphql } from 'gatsby';
-import { Container, Styled } from 'theme-ui';
+import { Container, Grid, Heading, Styled, Text } from 'theme-ui';
 import { Layout, MDXRenderer } from '@undataforum/gatsby-theme-base';
-import { SmartLink } from '@undataforum/components';
+import { ColorCard, SmartLink } from '@undataforum/components';
 
 const ProgrammePage = ({ data }) => {
   const thematicAreas = data.allMdx.nodes.map(
-    ({ frontmatter: { id, title }, body }) => ({ id, title, body })
+    ({ frontmatter: { id, color, title, subtitle }, body }) => ({
+      id,
+      color,
+      title,
+      subtitle,
+      body,
+    })
   );
   return (
     <Layout
@@ -46,12 +52,22 @@ const ProgrammePage = ({ data }) => {
           <SmartLink href="/2020/call-for-proposals">here</SmartLink> and closes
           on 31 January 2020.
         </Styled.p>
-        {thematicAreas.map(({ id, title, body }) => (
-          <Fragment key={id}>
-            <Styled.h2>{`${id} ${title}`}</Styled.h2>
-            <MDXRenderer>{body}</MDXRenderer>
-          </Fragment>
-        ))}
+        <Grid gap={[3, 4]}>
+          {thematicAreas.map(({ id, color, title, subtitle, body }) => (
+            <ColorCard
+              key={id}
+              color={color}
+              title={() => (
+                <>
+                  <Heading as="h2" sx={{ mb: 2 }}>{`${id} ${title}`}</Heading>
+                  <Text>{subtitle}</Text>
+                </>
+              )}
+            >
+              {() => <MDXRenderer>{body}</MDXRenderer>}
+            </ColorCard>
+          ))}
+        </Grid>
       </Container>
     </Layout>
   );
@@ -72,7 +88,9 @@ export const query = graphql`
       nodes {
         frontmatter {
           id
+          color
           title
+          subtitle
         }
         body
       }

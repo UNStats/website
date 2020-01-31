@@ -1,10 +1,11 @@
 ---
 id: TA5
+color: yellow
 title: Building trust in data and statistics
+subtitle:
+  Applying data principles and governance to new and existing data sources and
+  implementing open data principles and practices.
 ---
-
-_Applying data principles and governance to new and existing data sources and
-implementing open data principles and practices._
 
 Trust in data and statistics is paramount to the production and use of data.
 This thematic area focuses on building trust in data and statistics by applying

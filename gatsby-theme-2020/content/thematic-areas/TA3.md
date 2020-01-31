@@ -1,10 +1,11 @@
 ---
 id: TA3
+color: green
 title: Leaving no one behind
+subtitle:
+  Generating and leveraging data and statistics to ensure visibility and voice
+  for everyone.
 ---
-
-_Generating and leveraging data and statistics to ensure visibility and voice
-for everyone._
 
 This thematic area focuses on making the most vulnerable visible through data.
 Sessions in this thematic area center around
