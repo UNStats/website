@@ -13,8 +13,6 @@
     "purge": "rm -rf ./node_modules"
   },
   "dependencies": {
-    "@emotion/core": "10.0.27",
-    "@mdx-js/react": "1.5.5",
     "@undataforum/assets": "0.4.1",
     "@undataforum/components": "0.70.1",
     "@undataforum/gatsby-theme-base": "0.12.0",
