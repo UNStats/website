@@ -1,0 +1,146 @@
+---
+title:
+  Catalyzing the use and impact of official statistics for sustainable
+  development
+date: 2018-08-27
+authors:
+  - deirdre-appel
+images:
+  - ../assets/posts/CapacityDevData.jpg
+  - ../assets/posts/NSO_dataUsage.jpg
+---
+
+import { Image } from '@undataforum/gatsby-theme-blog';
+
+The first United Nations World Data Forum launched the
+[Cape Town Global Action Plan for Sustainable Development Data (CTGAP)](https://unstats.un.org/sdgs/hlg/cape-town-global-action-plan/),
+an ambitious yet essential commitment to innovate and modernize national
+statistical systems, among other priorities. As policymakers, development
+partners and other data advocates prepare to gather at the second United Nations
+World Data Forum in Dubai in October, it is an opportune moment to ask how these
+various actors can effectively implement this Plan.
+
+A critical piece of this puzzle is to be able to better support National
+Statistical Offices (NSOs) in increasing the use and impact of official
+statistics and facilitating better data dissemination strategies.
+[Open Data Watch (ODW)](https://opendatawatch.com/),
+[AidData](https://www.aiddata.org/) and the
+[Partnership in Statistics for Development in the 21th Century (PARIS21)](https://paris21.org/)
+have teamed up to address these two needs through an exciting, collaborative
+research study. (Financial support for this study was provided by the Hewlett
+Foundation). This blog presents a preview of findings from this two-part
+project, ahead of our session where we will launch the full report at the United
+Nations World Data Forum.
+
+The 2030 Agenda for Sustainable Development has placed increased demands on NSOs
+in terms of the quantity and quality of data that needs to be collected to
+effectively monitor the
+[Sustainable Development Goals (SDGs)](https://sustainabledevelopment.un.org/).
+The CTGAP is a global plan for the planning and implementation of statistical
+capacity building necessary to achieve the scope and intent of the 2030 Agenda.
+The national statistical system - NSOs and other agencies designated to collect,
+compile and disseminate official statistics — is central to making progress on
+its six strategic areas (Figure 1).
+
+<Image
+  fluid={props.images[0]}
+  title="Figure 1: Six strategic areas of the Cape Town Global Action Plan"
+  alt="Six strategic areas of the Cape Town Global Action Plan: (1) Coordination and strategic leadership on data for sustainable development; (2) Innovation and modernization of national statistical systems; (3) Strengthening of basic statistical activities and programmes, with particular focus on addressing the monitoring needs of the 2030 Agenda; (4) Dissemination and use of sustainable development data; (5) Multi-stakeholder partnerships for sustainable development data; (6) Mobilize resources and coordinate efforts for statistical capacity building."
+/>
+
+However, despite the increased demand for development data from NSOs, there are
+[barriers that limit the full potential of official statistics](https://www.aiddata.org/publications/avoiding-data-graveyards-insights-from-data-producers-users-in-three-countries)
+to bring about the desired change in society. Some of these include, but are not
+limited to, the timeliness and perceptions of accuracy of the data, due to both
+technical and political constraints. In sum, there remains a broken link in the
+data value chain between the production of official statistics and its
+dissemination and use.
+
+To close the gap between production of official statistics on the one hand, and
+its dissemination and use on the other, development partners and other actors
+need a better understanding of the NSO perspective and the barriers they face
+with disseminating, monitoring and increasing data use. And to assist the
+modernization of statistical systems, an analysis of usage statistics from
+national data portals and NSO websites is also necessary.
+
+## Snap poll reveals a strong demand for monitoring data use among NSOs
+
+To capture the producer perspective on official statistics, AidData sent an
+online snap poll to senior- and mid-level officials in NSOs in 140 low- and
+middle-income countries. The survey covered four broad topics: the most
+important and frequent users of data produced by NSOs, current monitoring of
+data use and dissemination methods, the key improvements to encourage data use,
+and what they need to make those improvements. Around 390 officials responded to
+the survey, for a response rate of 32 percent.
+
+Contrary to what might be expected based on their primary mandate to collect,
+analyze and disseminate data, most NSOs reported monitoring the use of data they
+produced. _Among the 40 percent who said they did not currently measure the use
+of their data, 90 percent said that it was very important or quite important for
+the NSO to be able to measure the use of data it produces._ This suggests that
+NSOs see the value of monitoring data use, but may not be currently doing it
+either due to other competing priorities or capacity constraints.
+
+The most common way of monitoring data use was through web analytics. _While
+more than 70 percent of those that currently monitored data use did it through
+web analytics, more than 85 percent of those that would like to monitor data use
+also chose this as their preferred way (Figure 2)._ This suggests that NSOs that
+do not currently monitor data use would appreciate support in using web
+analytics for their data portals or websites hosting official statistics.
+
+<Image
+  fluid={props.images[1]}
+  title="Figure 2: Current ways that NSOs monitor the use of data they produce"
+  alt=""
+/>
+
+_Note_: This figure is based on the question: How do you measure the use of data
+produced by NSOs? The question was only asked to those respondents that said
+they monitor data use. Respondents could select all that apply. Data labels
+represent the number of respondents that selected a certain response option.
+
+## Monitoring data portals reveals a preference for economic statistics among users
+
+One of the objectives under the CTGAP is to "develop and promote innovative
+strategies to ensure proper dissemination and use of data for sustainable
+development." To aid efforts to publish official statistics in open data formats
+for measuring and tracking development progress, several NSOs have created
+national data portals or platforms. Our snap poll findings point to a demand for
+effectively monitoring and analyzing how data are accessed, particularly through
+web analytics.
+
+The second part of this project, conducted in partnership with PARIS21, was
+designed to help countries understand how users access official statistics
+through NSO websites. By analyzing user activity on these websites using Google
+Analytics, countries can learn more about who is accessing their website and
+what interests these users may have. Initial findings show that the vast
+majority of users accessing these websites come from within the country itself.
+This could include government officials, academics, citizens, and staff of
+international organizations based in that country.
+
+_Economic-related statistics seem to be the most popular, as the pages hosting
+these statistics are the most visited pages on NSO websites, with some
+additional interest in social data on population and poverty_. Aside from pages
+related to official statistics, pages related to job opportunities with the NSO
+receive a great deal of web traffic.
+
+## Informing future statistical capacity building initiatives
+
+Insights from the snap poll and the data portals study reveal the producer and
+user perspective on the use of official statistics. By identifying the key
+barriers to use, the most effective dissemination strategies and organizational
+needs of NSOs, this study will inform the efforts of development partners,
+governments and civil society organizations in implementing the CTGAP. The
+recommendations can help align future approaches to statistical capacity
+building with what NSOs need the most.
+
+While this blog only provided a sneak peek into what we're learning from this
+joint research, the World Data Forum presents an excellent forum to share the
+findings and recommendations from the full report widely, and spur a discussion
+around the use and monitoring of official statistics at the session "New
+Engagement Approaches for NSOs to Increase Data Use" on October 23.
+[ODW](https://opendatawatch.com/), [AidData](https://www.aiddata.org/) and the
+[PARIS21](https://paris21.org/) look forward to engaging with NSOs, development
+partners and data advocates to narrow the gap between production and use of
+official statistics and implementing initiatives that can maximize the impact of
+this data.
