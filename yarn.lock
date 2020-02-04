@@ -1737,7 +1737,14 @@
   dependencies:
     prop-types "^15.7.2"
 
-"@undataforum/components@0.70.1", "@undataforum/components@^0.70.1":
+"@undataforum/components@0.70.2":
+  version "0.70.2"
+  resolved "https://registry.yarnpkg.com/@undataforum/components/-/components-0.70.2.tgz#b0a495688c63b098f5b832727dc0a95d1670a2b6"
+  integrity sha512-hB1sqGrQ2QFMFyWZH//EqG8vK1QCB2Q3qs2eCkwxSobCLNrZUN9qDx79isZWqm0WBgKeX9uUumojoe37TVak/A==
+  dependencies:
+    prop-types "^15.7.2"
+
+"@undataforum/components@^0.70.1":
   version "0.70.1"
   resolved "https://registry.yarnpkg.com/@undataforum/components/-/components-0.70.1.tgz#f9f7b6a52a79e7da3c8405fa5d28f9bf7376bffb"
   integrity sha512-+oTq1h7mY2b4sPZJT9iyMlpIlCKrtYOlJdVFa0bWguSw87StCLsKXJkQN2WTHNDjSYwbDeQ891EHhyXu5SUIcw==
