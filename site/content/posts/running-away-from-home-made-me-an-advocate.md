@@ -9,10 +9,10 @@ I ran away from home when I was 15. When I did, I removed myself from the radar
 of official statistics and counting. The last thing I wanted was to be noticed,
 noted and counted: my aim was to be quiet, on my own, invisible. But I was
 lucky, when I calmed down and re-established contact with my parents, I was
-still in the system. When I needed medical attention - which I did - the
-National Health Service still had me on their files. When I wanted to re-join
-the schooling system which I did - I was registered and able to access free
-secondary schooling and, later, a university education.
+still in the system. When I needed medical attention--which I did--the
+[National Health Service](https://www.nhs.uk/) still had me on their files. When
+I wanted to re-join the schooling system which I did--I was registered and able
+to access free secondary schooling and, later, a university education.
 
 But when I started working, I met young people in my position who happen to have
 grown up in countries where the system doesn't work so well. I am thinking of
@@ -32,7 +32,7 @@ children who are likely to be uncounted, not to be in the averages and national
 statistics that we use so often.
 
 The focus in the SDGs to leave no-one behind, and the thematic area on the same
-topic at the United Nations World Data Forum 2018 are crucial. Making sure we
+topic at the _United Nations World Data Forum 2018_ are crucial. Making sure we
 count everyone is a combination of technical, political and financial issues.
 It's technical because some of the groups we most want to monitor are not
 captured by regular statistical systems, such as administrative data or surveys.
@@ -67,12 +67,12 @@ Moving forward, there are three directions we propose:
     systematic and coordinated efforts to ensure all countries have minimum data
     coverage for children, irrespective of their resources and capabilities.
 
-3.  And we need **shared norms, beginning with open data.** Common approaches
+3.  And we need **shared norms, beginning with open data**. Common approaches
     are needed to measure emerging threats facing children, capture missing
     child populations such as those in institutions or migrating, and share data
     to enable vulnerable children to be more effectively identified, while
     protecting their privacy.
 
-I am going to the United Nations World Data Forum 2018 to help advocate for,
+I am going to the _United Nations World Data Forum 2018_ to help advocate for,
 find partners for, and build on those principles so all children can have
 global, regional, country and local advocates and champions.
