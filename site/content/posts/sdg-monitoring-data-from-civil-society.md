@@ -2,6 +2,8 @@
 title: 'SDG monitoring: data from civil society'
 date: 2018-10-01 14:36:44
 authors:
+  - hermanus-rietveld
+  - lieneke-hoeksma
 ---
 
 In March 2018, [Statistics Netherlands (CBS)](https://www.cbs.nl/en-gb) released
@@ -16,7 +18,7 @@ October 2018 in Dubai, on how data from civil society can be incorporated into
 national official statistics. These are our most important experiences and
 take-aways.
 
-**Prelude**
+## Prelude
 
 In 2016, CBS made an in-house inventory of the available SDG information for the
 Netherlands. This resulted in its first
@@ -36,7 +38,7 @@ available within civil society. This **multi-stakeholder data collaboration
 between public and private sectors** resulted in 34 additional indicators,
 raising the total proportion of indicators covered to 51%.
 
-**Action plan for external consultation **
+## Action plan for external consultation
 
 So how did we tackle this? Before organizing the actual consultation, we needed
 to draft an unambiguous and transparent quality assessment framework. Like our
@@ -87,7 +89,7 @@ steer them back in this direction.
 Having convinced them of this, we received usable data from over 20
 organizations, and managed to increase our indicator coverage from 33% to 51%.
 
-**Tips and tricks**
+## Tips and tricks
 
 As described above, our experience with incorporating data from civil society
 organizations in SDG monitoring is positive. We are convinced that other
@@ -99,7 +101,7 @@ criteria transparent. These organizations invest time and money to help you, so
 it's very important that they (and others) understand why data are included -or
 not included - in the national SDG dataset.
 
-**Next steps**
+## Next steps
 
 As mentioned above, most of the low-hanging SDG fruit has now been picked in the
 Netherlands. One of our next steps will be looking at innovative new data
