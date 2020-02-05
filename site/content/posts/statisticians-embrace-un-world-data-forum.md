@@ -1,7 +1,8 @@
 ---
 title: Statisticians embrace UN World Data Forum as vital to innovation
 date: 2018-03-14 20:05:15
-authors: unwdf-secretariat
+authors:
+  - unwdf-secretariat
 ---
 
 Senior national statisticians and key partners gave a resounding endorsement of
