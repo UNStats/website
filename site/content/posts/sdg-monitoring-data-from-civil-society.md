@@ -9,14 +9,14 @@ authors:
 In March 2018, [Statistics Netherlands (CBS)](https://www.cbs.nl/en-gb) released
 its second SDG report,
 [The sustainable development goals: the situation for the Netherlands](https://www.cbs.nl/en-gb/publication/2018/10/the-sdgs-the-situation-for-the-netherlandshttps:/www.cbs.nl/en-gb/publication/2018/10/the-sdgs-the-situation-for-the-netherlands)',
-with data for 51% of the international SDG indicators, up from 33% in the first
-report. This leap - from just over one third to over half of the indicators -
-was the result of including data from civil society. This blog explains how we
-did this, and our experience can hopefully further the discussions at the
-[2018 United Nations World Data Forum](//undataforum.org/), taking place 22-24
-October 2018 in Dubai, on how data from civil society can be incorporated into
-national official statistics. These are our most important experiences and
-take-aways.
+with data for 51 percent of the international SDG indicators, up from 33 percent
+in the first report. This leap - from just over one third to over half of the
+indicators - was the result of including data from civil society. This blog
+explains how we did this, and our experience can hopefully further the
+discussions at the [2018 United Nations World Data Forum](//undataforum.org/),
+taking place 22-24 October 2018 in Dubai, on how data from civil society can be
+incorporated into national official statistics. These are our most important
+experiences and take-aways.
 
 ## Prelude
 
@@ -34,9 +34,9 @@ data for the second report, we needed to look elsewhere. We decided to organize
 an extensive consultation of over thirty organisations, including ministries,
 policy analysis institutes, knowledge institutions and NGOs. The purpose of this
 exercise was to pinpoint the "low-hanging fruit": usable SDG information
-available within civil society. This **multi-stakeholder data collaboration
-between public and private sectors** resulted in 34 additional indicators,
-raising the total proportion of indicators covered to 51%.
+available within civil society. This _multi-stakeholder data collaboration
+between public and private sectors_ resulted in 34 additional indicators,
+raising the total proportion of indicators covered to 51 percent.
 
 ## Action plan for external consultation
 
@@ -74,10 +74,13 @@ information on SDGs. Once we had that name, we used this person as our single
 point of contact.
 
 What did we ask them to do? We sent them spreadsheets with the SDG indicators
-relevant to their field of work, with the gaps marked, and we asked them: 1) if
-they had data to fill the gaps, 2) if they could suggest other organizations
-that may have data, and 3) if they could suggest data that could be used as a
-proxy for the officially required indicators.
+relevant to their field of work, with the gaps marked, and we asked them whether
+they:
+
+1. had data to fill the gaps,
+2. could suggest other organizations that may have data, and
+3. could suggest data that could be used as a proxy for the officially required
+   indicators.
 
 In this stage of the process, we had frequent contact, by e-mail, telephone and
 face-to-face. In general, the organizations were pleased to be consulted, and
@@ -87,7 +90,8 @@ to increase the coverage of the official global indicators and we often had to
 steer them back in this direction.
 
 Having convinced them of this, we received usable data from over 20
-organizations, and managed to increase our indicator coverage from 33% to 51%.
+organizations, and managed to increase our indicator coverage from 33 percent to
+51 percent.
 
 ## Tips and tricks
 
