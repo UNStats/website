@@ -23,8 +23,10 @@ people to become more aware about the negative use of their data, often
 neglecting the many positive ways in which data is being used around the world.
 The mainstream media tends to focus on the Internet giants of this world and how
 they exploit data. However, telecommunications companies also have access to
-incredibly insightful data sets. The telcos of this world are increasingly
-finding ways to have a social impact with the data created by their customers,
+incredibly insightful data sets.
+
+The telcos of this world are increasingly finding ways to have a social impact
+with the data created by their customers,
 [who spend an average of 145 minutes per day tapping and swiping away](https://blog.dscout.com/mobile-touches).
 Of course, mobile behaviour varies immensely in different geographies, and the
 extent of this social impact depends on how developed the country of analysis
@@ -60,14 +62,14 @@ of 2009,
 [which was estimated to have affected up to 375,000 people](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0006895).
 Human movement directly accelerates the spread of diseases so they analyzed
 mobility patterns before and after the government advised citizens to stay at
-home, uncovering that only 30% of people stayed at home, whilst 70% barely
-showed any changes in their day to day behaviour. In the future, this
-data-driven approach to handling health pandemics will inevitably save lives and
-help governments to optimize their response.
+home, uncovering that only 30 percent of people stayed at home, whilst 70
+percent barely showed any changes in their day to day behaviour. In the future,
+this data-driven approach to handling health pandemics will inevitably save
+lives and help governments to optimize their response.
 
 ## Goal 4: Quality education
 
-### Using mobile data to increase the reach and effectiveness of digital education for the children that most need it (Profuturo, Telef�nica)
+### Using mobile data to increase the reach and effectiveness of digital education for the children that most need it (Profuturo, Telefónica)
 
 [Profuturo ](https://fundacionprofuturo.org/web/general-navigation/aula-digital)
 aims to bring digital education to millions of children who currently are
@@ -76,12 +78,12 @@ interaction with the platform for all students and teachers, as well as
 contextual data about the country, region, etc. With this mobile data, learning
 analytics takes place to predict the success of students, teachers and projects.
 The project has started in Angola where the education program is now offered to
-8000 children. It is now being extended to other countries in Africa as well as
+8,000 children. It is now being extended to other countries in Africa as well as
 in Central and South America.
 
 ## Goal 7: Affordable and clean energy
 
-### Using Mobile Data for Electrification Planning in Senegal (University of Manchester, Ecole sup�rieure polytechnique de Dakar UCAD and the Santa Fe Institute)
+### Using Mobile Data for Electrification Planning in Senegal (University of Manchester, Ecole supérieure polytechnique de Dakar UCAD and the Santa Fe Institute)
 
 Mobile phone data has proved to be an accurate proxy of
 [the energy needs of populations in Senegal](http://d4d.orange.com/content/download/43330/405662/version/3/file/D4Dchallenge_leaflet_A4_V2Eweblite.pdf),
@@ -90,24 +92,24 @@ bottom-up demand models. This is especially important where there is scarce
 information on the constantly evolving energy needs of people and companies in
 developing countries. In the future, mobile data will be crucial in helping
 governments and utilities providers to decide where to invest in renewable
-energies � making them more affordable for citizens.
+energies--making them more affordable for citizens.
 
 ## Goal 11: Sustainable cities and communities
 
-### Crime Prediction in the city of London in the UK (02 Telef�nica and the University of Trento)
+### Crime Prediction in the city of London in the UK (02 Telefónica and the University of Trento)
 
 Academic and mobile data experts used anonymized and aggregated mobile data and
 police data to predict crime hotspots in London.
 [Identifying them with an accuracy of 70 percent](https://medium.com/the-physics-arxiv-blog/londons-future-crime-hot-spots-predicted-using-mobile-phone-data-ae869a2e67ab#.wcysd1n5x),
-6% higher than when police data was used on its own. The analysis showed that
-some components of mobile phone data are more important than others. For
+6 percent higher than when police data was used on its own. The analysis showed
+that some components of mobile phone data are more important than others. For
 example, the data about the phone's home location showed a strong correlation
 with crime patterns. In the future, these insights could be invaluable to law
 enforcement authorities in making our cities safer.
 
 ## Goal 13: Climate action
 
-### Using Mobile Data to measure CO2 emissions in Nuremberg, Germany (O2 Telef�nica, Teralytics and the South Pole Group)
+### Using Mobile Data to measure CO2 emissions in Nuremberg, Germany (O2 Telefónica, Teralytics and the South Pole Group)
 
 Local governments are facing immense challenges with accelerating rates of CO2
 emissions causing serious air pollution problems in cities. The first and most
@@ -130,7 +132,7 @@ Good, [the Data-Pop Alliance](http://datapopalliance.org/),
 [Massachusetts Institute of Technology](http://web.mit.edu/),
 [Orange Group](http://www.orange.com/en/home), the
 [World Economic Forum](https://www.weforum.org/) and
-[Telef�nica ](https://www.telefonica.com/es)have come together in the
+[Telefónica ](https://www.telefonica.com/es)have come together in the
 [Open Algorithms Project](http://www.opalproject.org/collaborators/). OPAL will
 consist in an open platform and algorithms that can be run on the servers of
 partner companies behind their firewalls to extract key development indicators
@@ -141,11 +143,12 @@ better and deeper insights to policy makers around the world.
 
 So, it's clearly not all doom and gloom when it comes to data exploitation. In
 fact, many innovation teams in private and public sector organizations are
-regularly lobbying to implement disruptive data projects with a social impact -
-as we can see in the examples above. However, to make Big Data for Social Good a
-real success, it is fundamental to find sustainable business models which allow
-these data analyses to become recurring projects, not just one off pilots or
-exploratory academic work. Taking a data-driven approach to the world's biggest
-problems is fundamental and regular measurement of our collective progress on
-the 17 Sustainable Development Goals is crucial in enabling policy makers to
-mould their decisions in the most responsible and effective way possible.
+regularly lobbying to implement disruptive data projects with a social
+impact--as we can see in the examples above. However, to make Big Data for
+Social Good a real success, it is fundamental to find sustainable business
+models which allow these data analyses to become recurring projects, not just
+one off pilots or exploratory academic work. Taking a data-driven approach to
+the world's biggest problems is fundamental and regular measurement of our
+collective progress on the 17 Sustainable Development Goals is crucial in
+enabling policy makers to mould their decisions in the most responsible and
+effective way possible.
