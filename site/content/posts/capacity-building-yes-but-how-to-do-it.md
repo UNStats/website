@@ -1,0 +1,106 @@
+---
+title: Capacity building, yes — but how to do it?
+date: 2016-11-01
+authors:
+  - johannes-juetting
+images:
+  - ../assets/posts/paris21Chart.jpg
+  - ../assets/posts/paris21Table.jpg
+---
+
+import { Image } from '@undataforum/gatsby-theme-blog';
+
+These days, keynote addresses on the Sustainable Development Goals (SDGs) often
+end with the call to strengthen the capacity of national data ecosystem actors,
+in particular those within National Statistical Offices. This is an important
+message. But how can we do it? Is there eventually a need to profoundly change
+the way in which we approach capacity? Challenges in implementing the SDGs,
+increased data demands from all parts of society, new possibilities stemming
+from innovations in collecting, disseminating and using data all of these
+developments seem to call for more than just incremental change in the way we
+build capacities. What could Capacity Development 4.0 look like? This should be
+one of the main questions we can hope to answer in Cape Town.
+
+## Capacity development: a changing framework
+
+[Capacity development](http://www.uneca.org/sites/default/files/images/eca_capacity_development_strategy_eng_june2015_rev3.pdf)
+starts from the principle that people are best empowered to realise their full
+potential when the means of development are sustainable home-grown, long-term,
+and generated and managed collectively by those who stand to benefit. But what
+exactly do we mean by capacity development? For some, capacity development can
+be any effort to teach someone to do something, or to do it better. For others,
+it may be about creating new institutions or strengthening existing ones. Some
+see capacity development as a focus on education and training, while others take
+a broad view by improving individual rights, access or freedoms. The
+[United Nations Economic Commission for Africa defines capacity development](http://www.uneca.org/our-work/capacity-development)
+as a process through which individuals, groups and organisations, and societies
+deploy, adapt, strengthen, and maintain the capabilities to define, plan and
+achieve their own development objectives on an inclusive, participatory, and
+sustainable basis. While the definition may vary, there is wide recognition that
+the concept of capacity development is currently evolving, which in turn is
+affecting all aspects of development, from infrastructure, agriculture,
+education and health to data and statistics. The following table summarises
+general trends of such change and how this could be applied to the data and
+statistics sector.
+
+<Image
+  fluid={props.images[0]}
+  title="Figure 1. Shifts in the understanding of capacity development (examples). Adapted from: Capacity Development Strategy, UNECA 2014."
+  alt="The implementation of the SDGs requires a boost in capacity across the board,
+starting with the data and statistics sector. The goals not only require
+responsive official statistical systems that are able to measure and track
+national progress across a much broader spectrum of development outcomes and
+processes, but also the building of national data ecosystems where data users,
+such as academia, civil society and business, play an increasing role in data
+production."
+/>
+
+## Building the foundations for capacity development
+
+Let's look at one example of how capacity development needs to change in the
+coming 5 years. At PARIS21, we actively promote the adoption of National
+Strategies for the Development of Statistics
+([NSDS](http://www.paris21.org/NSDS)) by developing countries. NSDS are owned
+and developed by countries as national frameworks, processes and products for
+statistical development aimed at mainstreaming statistics into national policy
+and planning while also co-ordinating the entire National Statistical System. In
+the
+[2016 NSDS Progress Report](http://www.paris21.org/sites/default/files/NSDS-status-Jan2016.pdf),
+more than 50% of
+[IDA countries](https://ida.worldbank.org/about/borrowing-countries) are
+currently implementing a strategy, while close to 30% are currently in the
+process of designing one or awaiting their implementation. For all these
+countries, the strategies need to be made "SDG fit, compatible and localized"
+over the next years, which will often require the changing role of National
+Statistical Offices away from a pure data production entity to more of a service
+provider, quality approving institution and agency that convenes and connects
+different actors inside and outside the official systems of users and producers
+of data. For the countries without a strategy, either because it is expired or
+absent, extra efforts are needed to understand their specific situation and
+which approaches for implementation in their national context could work best.
+
+<Image
+  fluid={props.images[1]}
+  title="Table 1. NSDS status in IDA countries as of January 2016"
+  alt="NSDS status in IDA countries as of January 2016"
+/>
+
+## Launching Capacity Development 4.0
+
+A fundamental question that the United Nations World Data Forum will need to
+address is the question of how we can build capacities and disseminate knowledge
+in a more comprehensive, inclusive and participatory way. What role can
+peer-review learning and South-South cooperation play? How can we align
+international efforts in a more coordinated manner to avoid crowding out of
+national efforts and overlap? Those and similar questions will be at the centre
+of the debate on capacity building in Cape Town.
+
+At many recent conferences, we often hear the need for more collaboration and
+inclusiveness. With participants coming from both the public and private sectors
+national statistical offices, multi-lateral institutions, civil society,
+academia and the private sector we have a unique opportunity to start developing
+elements for a roadmap for Capacity Development 4.0. Strengthening capacities in
+data and statistics and improving implementation efforts requires the engagement
+of all actors in the field. Being able to work on these issues together and
+start building the coalitions needed to push this agenda forward is crucial and
+the United Nations World Data Forum is a great place for this to happen.
