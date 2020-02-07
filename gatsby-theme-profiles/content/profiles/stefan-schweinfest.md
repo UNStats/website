@@ -25,3 +25,5 @@ Division and the
 [United Nations Economic and Social Council](https://www.un.org/ecosoc/en/home)
 during the negotiations of the resolution that formally launched UN-GGIM
 in 2011.
+
+[Photo by IISD/ENB | Kiara Worth](http://www.iisd.ca/undata/forum1/18jan.html)
