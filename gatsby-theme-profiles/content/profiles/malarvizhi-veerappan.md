@@ -3,7 +3,7 @@ firstName: Malarvizhi
 lastName: Veerappan
 jobtitle: Program Manager and Senior Data Scientist
 organization: World Bank
-avatar: ../assets/profiles/malarvizhi-veerappan.jpg
+avatar: ../assets/malarvizhi-veerappan.jpg
 twitter: malarv
 ---
 

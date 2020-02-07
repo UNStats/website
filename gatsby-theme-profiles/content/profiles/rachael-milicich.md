@@ -5,7 +5,7 @@ jobtitle:
   General Manager for System and Partnerships in the Data System Leadership
   Group
 organization: Stats NZ (New Zealand's National Statistical Office)
-avatar: ../assets/profiles/rachael-milicich.jpg
+avatar: ../assets/rachael-milicich.jpg
 twitter: RMSquaredNZ
 ---
 
