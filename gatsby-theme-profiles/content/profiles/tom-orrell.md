@@ -3,7 +3,7 @@ firstName: Tom
 lastName: Orrell
 jobtitle: Founder
 organization: DataReady Limited
-avatar: ../assets/profiles/tom-orrell.jpg
+avatar: ../assets/tom-orrell.jpg
 twitter: tomorrell86
 ---
 

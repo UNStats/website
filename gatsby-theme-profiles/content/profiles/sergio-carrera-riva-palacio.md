@@ -3,7 +3,7 @@ firstName: Sergio
 lastName: Carrera Riva Palacio
 jobtitle: General Director of Integration Analysis and Research
 organization: Mexico's National Institute of Statistics and Geography (INEGI)
-avatar: ../assets/profiles/sergio-carrera-riva-palacio.jpg
+avatar: ../assets/sergio-carrera-riva-palacio.jpg
 ---
 
 Sergio has worked in public service for 40 years. He worked as General Director
