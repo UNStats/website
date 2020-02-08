@@ -9,7 +9,7 @@ My first experience of data collection was running a survey in a small, isolated
 village in Northern Mozambique in the late 1990s as part of my academic
 research. I collected and analysed the data, and when I had finished with it, I
 put the 400 or so paper surveys in boxes (which I still have!) and put them in a
-cupboard. That was fairly typical for the times – a world where the collectors
+cupboard. That was fairly typical for the times--a world where the collectors
 and users of data were the same, and where data sharing and re-use were the
 exception, not the rule.
 
@@ -49,11 +49,11 @@ insights from over 1,000 different datasets that can help to monitor and achieve
 the Sustainable Development Goals.
 
 But I am also very aware that making this happen is not easy. In this new
-landscape the producers, analysts and users of data come from different sectors
-– private and public, civil society and academic. They operate within different
-boundaries – national governments, international agencies, global companies,
-city authorities and district level NGOs. They have different incentives –
-political, commercial, social and professional.
+landscape the producers, analysts and users of data come from different
+sectors--private and public, civil society and academic. They operate within
+different boundaries--national governments, international agencies, global
+companies, city authorities and district level NGOs. They have different
+incentives – political, commercial, social and professional.
 
 We know what is possible now, and thanks to the work of innovators all over the
 world, are starting to understand the benefits that the data revolution can
@@ -67,6 +67,6 @@ resources that make it possible to use those insights at scale is quite another.
 The United Nations World Data Forum is coming at exactly the right moment. The
 technical possibilities are dazzling. But the political and economic questions
 that need to be answered if essential collaborations are to happen, are only
-just beginning. A UN forum, bringing together governments, companies, UN
-agencies and global networks like the GPSDD, is just the place to begin those
-conversations. I, for one, cannot wait.
+just beginning. A United Nations forum, bringing together governments,
+companies, United Nations agencies and global networks like the GPSDD, is just
+the place to begin those conversations. I, for one, cannot wait.
