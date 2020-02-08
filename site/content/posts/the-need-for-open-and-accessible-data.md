@@ -1,5 +1,5 @@
 ---
-title: The Need for Open and Accessible Data
+title: The need for open and accessible data
 date: 2016-11-17
 authors:
   - sanjay-kumar
@@ -9,11 +9,11 @@ images:
 
 import { Image } from '@undataforum/gatsby-theme-blog';
 
-­Data and Information are the key to the ‘digital age’ we live in today.
-Availability, Accessibility, and Utility of information are both testimonials
+­Data and information are the key to the ‘digital age’ we live in today.
+Availability, accessibility, and utility of information are both testimonials
 and benchmark of human development of societies and nations in terms of societal
 engagement, inclusive policies, citizen empowerment, and economic advancement.
-‘Knowledge Economy’ and ‘Digital World’ are now the determining axes around
+‘Knowledge economy’ and ‘digital World’ are now the determining axes around
 which civilizations and nations revolve and evolve. Scientific and technological
 infrastructure, which enables innovation and creates knowledge entrepreneurs and
 professionals, is the bedrock of progressive societies.
