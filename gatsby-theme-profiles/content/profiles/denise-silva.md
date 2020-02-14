@@ -12,7 +12,8 @@ Denise Silva has been working as a survey methodologist for more than 30 years
 as well as a lecture at graduate and undergraduate levels. She is the President
 of the
 [International Association of Survey Statisticians (IASS)](http://isi-iass.org/home/),
-is an elected member of the International Statistical Institute (ISI) and is an
+is an elected member of the
+[International Statistical Institute (ISI)](https://isi-web.org/) and is an
 editor of the
 [Statistical Journal of International Association for Official Statistics (IAOS)](https://www.iospress.nl/journal/statistical-journal-of-the-iaos/)
 and the
