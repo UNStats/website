@@ -18,7 +18,7 @@
     "@undataforum/components": "0.70.2",
     "@undataforum/gatsby-theme-base": "0.12.1",
     "@undataforum/gatsby-theme-profiles": "0.7.1",
-    "gatsby-source-filesystem": "2.1.48",
+    "gatsby-source-filesystem": "2.1.51",
     "prop-types": "15.7.2"
   }
 }
