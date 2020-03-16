@@ -12,19 +12,18 @@
     "start": "yarn workspace site run develop",
     "build": "rm -rf public && yarn workspace site run build && mv site/public/ public",
     "clean": "yarn workspace site run clean",
-    "lint": "eslint . --ignore-path .gitignore",
-    "format": "pretty-quick",
+    "lint": "yarn run lint:code && yarn run lint:other",
+    "lint:code": "eslint . --cache --ext .js,.jsx --ignore-path .gitignore",
+    "lint:other": "yarn run prettier --check",
+    "prettier": "prettier \"**/*.{md,mdx,css,yaml,yml}\" --ignore-path .gitignore",
+    "format": "yarn run format:code && yarn run format:other",
+    "format:code": "yarn run lint:code --fix",
+    "format:other": "yarn run prettier --write",
     "purge": "rm -rf ./node_modules && yarn workspaces run purge"
-  },
-  "lint-staged": {
-    "*.js": [
-      "eslint --fix",
-      "git add"
-    ]
   },
   "husky": {
     "hooks": {
-      "pre-commit": "pretty-quick --staged && lint-staged"
+      "pre-commit": "lint-staged"
     }
   },
   "devDependencies": {
@@ -33,7 +32,6 @@
     "husky": "4.2.3",
     "lint-staged": "10.0.8",
     "now": "17.0.4",
-    "prettier": "1.19.1",
-    "pretty-quick": "2.0.1"
+    "prettier": "1.19.1"
   }
 }
