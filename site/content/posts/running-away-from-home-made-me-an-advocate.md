@@ -1,6 +1,6 @@
 ---
 title: How running away from home at 15 made me an advocate for the uncounted
-date: 2018-06-21 19:16:33
+date: 2018-06-21
 authors:
   - mark-hereward
 ---

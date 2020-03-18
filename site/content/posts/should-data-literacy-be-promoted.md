@@ -1,6 +1,6 @@
 ---
 title: "Should 'data literacy' be promoted?"
-date: 2016-11-07 17:19:57
+date: 2016-11-07
 authors:
   - emmanuel-letouze
 ---

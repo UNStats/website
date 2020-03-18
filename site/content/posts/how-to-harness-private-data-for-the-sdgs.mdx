@@ -2,7 +2,7 @@
 title:
   How to harness private data towards meeting the SDGs? The need for data
   stewards
-date: 2018-07-03 14:40:31
+date: 2018-07-03
 authors:
   - stefaan-verhulst
 images:
@@ -10,7 +10,8 @@ images:
   - ../assets/posts/dataStewards.jpg
 ---
 
-import { Image } from '@undataforum/gatsby-theme-blog';
+import Img from 'gatsby-image';
+import { Box } from 'theme-ui';
 
 To meet the objectives set forth in the 2030 Agenda for Sustainable Development,
 it is clear, we need not only new solutions, but also
@@ -54,11 +55,13 @@ malaria. If you are interested in learning about other examples of these data
 collaboratives and initiatives, please click
 [here](http://datacollaboratives.org/explorer.html).
 
-<Image
-  fluid={props.images[0]}
-  title="Data Collaboratives"
-  alt="Data Collaboratives, creating public value by exchanging data"
-/>
+<Box mb={3}>
+  <Img
+    fluid={props.images[0]}
+    title="Data Collaboratives: creating public value by exchanging data."
+    alt="Screenshot of the Data Collaboratives website."
+  />
+</Box>
 
 Yet, for all its promise, the practice of data collaboratives remains largely ad
 hoc and limited. In part, this is the result of a lack of a well-defined,
@@ -81,11 +84,13 @@ With support from the
 practices of data stewardship and to define new approaches to data
 responsibility.
 
-<Image
-  fluid={props.images[1]}
-  title="Data Collaboratives"
-  alt="Data Collaboratives, creating public value by exchanging data"
-/>
+<Box mb={3}>
+  <Img
+    fluid={props.images[1]}
+    title="Data Collaboratives: data leadership to address the challenges of the 21st century."
+    alt="Screenshot of the Data Stewards website."
+  />
+</Box>
 
 At a kick-off event held at the Cloudera Foundation in May 2018 -- attended by
 representatives from Linkedin, Facebook, Uber, Mastercard, DigitalGlobe,

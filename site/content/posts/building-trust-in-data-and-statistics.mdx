@@ -7,7 +7,8 @@ images:
   - ../assets/posts/building-trust-in-data-and-statistics.jpg
 ---
 
-import { Image } from '@undataforum/gatsby-theme-blog';
+import Img from 'gatsby-image';
+import { Box } from 'theme-ui';
 
 The 2018 United Nations World Data Forum promises to be an exciting event,
 bringing together communities of data users and data producers, researchers, and
@@ -76,11 +77,13 @@ trust in data and statistics:
 1. Addressing the last mile in the data value chain to meet users' needs, create
    value with data, and ensure meaningful impacts.
 
-<Image
-  fluid={props.images[0]}
-  title="Building trust in data and statistics."
-  alt="The digram shows the three important building blocks underlying trust in data and statistics (mentioned in the enumerated list.)"
-/>
+<Box mb={3}>
+  <Img
+    fluid={props.images[0]}
+    title="Building trust in data and statistics."
+    alt="The digram shows the three important building blocks underlying trust in data and statistics (mentioned in the enumerated list.)"
+  />
+</Box>
 
 I encourage all our expert colleagues and partners to propose relevant and
 vibrant sessions for theme 5 of this year's United Nations World Forum and share

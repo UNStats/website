@@ -1,6 +1,6 @@
 ---
 title: First-ever United Nations World Data Forum
-date: 2016-09-29 17:50:20
+date: 2016-09-29
 authors:
   - unwdf-secretariat
 ---

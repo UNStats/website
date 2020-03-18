@@ -7,7 +7,8 @@ images:
   - ../assets/posts/open-accessible-data-image.jpg
 ---
 
-import { Image } from '@undataforum/gatsby-theme-blog';
+import Img from 'gatsby-image';
+import { Box } from 'theme-ui';
 
 ­Data and information are the key to the ‘digital age’ we live in today.
 Availability, accessibility, and utility of information are both testimonials
@@ -39,11 +40,13 @@ resources. At the same time, it is equally important to share and make available
 those datasets to various stakeholders to bring in cohesive and coordinated
 implemented and monitoring mechanisms.
 
-<Image
-  fluid={props.images[0]}
-  title="The need for open and accessible data"
-  alt="The need for open and accessible data"
-/>
+<Box mb={3}>
+  <Img
+    fluid={props.images[0]}
+    title="The need for open and accessible data."
+    alt="Image with open book on top of an open laptop and overlayed by the words 'The need for open and accessible data'."
+  />
+</Box>
 
 Development, advancement and transformation of societies and economies largely
 depend on the relevance and smartness of policies and programs, and on the

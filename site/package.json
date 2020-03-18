@@ -13,14 +13,14 @@
     "purge": "rm -rf ./node_modules"
   },
   "dependencies": {
-    "@undataforum/assets": "0.4.1",
-    "@undataforum/components": "0.70.2",
-    "@undataforum/gatsby-theme-base": "0.12.1",
-    "@undataforum/gatsby-theme-blog": "0.9.1",
-    "@undataforum/gatsby-theme-events": "0.6.1",
+    "@undataforum/assets": "0.5.0",
+    "@undataforum/components": "0.73.0",
+    "@undataforum/gatsby-theme-base": "0.12.2",
+    "@undataforum/gatsby-theme-blog": "0.11.1",
+    "@undataforum/gatsby-theme-events": "0.8.0",
     "cross-env": "7.0.2",
     "deepmerge": "4.2.2",
-    "gatsby": "2.19.44",
+    "gatsby": "2.19.45",
     "gatsby-image": "2.2.44",
     "gatsby-source-filesystem": "2.1.56",
     "gatsby-theme-2020": "*",
@@ -28,6 +28,7 @@
     "prop-types": "15.7.2",
     "react": "16.13.0",
     "react-dom": "16.13.0",
+    "react-intl": "^4.1.1",
     "theme-ui": "0.3.1",
     "typeface-roboto": "0.0.75"
   }

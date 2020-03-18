@@ -1,6 +1,6 @@
 ---
 title: 'SDG monitoring: data from civil society'
-date: 2018-10-01 14:36:44
+date: 2018-10-01
 authors:
   - hermanus-rietveld
   - lieneke-hoeksma

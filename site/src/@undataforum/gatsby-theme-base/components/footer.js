@@ -7,16 +7,16 @@ const ShadowedFooter = props => {
   return (
     <Footer
       {...props}
-      logo={() => (
+      logo={
         <Box
           sx={{
             height: ['height.medium', null, 'height.large'],
-            mb: [2, 3, 4],
+            mb: [2, 3],
           }}
         >
           <Logo scaleTo="height" monochrome />
         </Box>
-      )}
+      }
       links={[
         { text: 'About', href: '/about/' },
         { text: 'Contact', href: '/contact/' },
@@ -24,16 +24,30 @@ const ShadowedFooter = props => {
         { text: 'Privacy Notice', href: '/privacy/' },
         { text: 'Terms of Use', href: '/terms/' },
       ]}
-      social={variant => (
+      socialIcons={
         <SocialIcons
-          usernames={{
-            twitter: 'UNDataForum',
-            github: 'UNDataForum',
-            email: 'dataforum@un.org',
-          }}
-          variant={variant}
+          platforms={[
+            {
+              id: 'twitter',
+              username: 'UNDataForum',
+              title: 'Follow us on Twitter',
+            },
+            {
+              id: 'github',
+              username: 'UNDataForum',
+              title: 'Follow us on GitHub',
+            },
+            {
+              id: 'email',
+              username: 'dataforum@un.org',
+              title: 'Send us an email',
+            },
+          ]}
+          size={[32, 48]}
+          variant="inherit"
+          mb={[1, 2]}
         />
-      )}
+      }
       variant="primary"
     />
   );

@@ -1,22 +1,16 @@
 import React from 'react';
 import { object, shape, string } from 'prop-types';
 import { graphql } from 'gatsby';
-import { ProfilesPage, normalize } from '@undataforum/gatsby-theme-profiles';
+import { ProfilesPage } from '@undataforum/gatsby-theme-profiles';
 import { Text } from 'theme-ui';
 
+// title="2020 Programme Committee"
+// description="Members of the 2020 United Nations World Data Forum 2020 programme committee."
+
 const CommitteePage = ({ data, location }) => {
-  // Normalize profiles and add href.
-  const profiles = data.allProfile.nodes.map(({ path: href, ...profile }) => ({
-    ...normalize(profile),
-    href,
-  }));
   return (
     <ProfilesPage
-      profiles={profiles}
-      title="2020 Programme Committee"
-      description="Members of the 2020 United Nations World Data Forum programme committee"
-      location={location}
-      render={() => (
+      blurb={
         <Text sx={{ mb: 3 }}>
           A wide range of partners from governments, private sector, civil
           society, the United Nations system, and the scientific and academic
@@ -26,7 +20,10 @@ const CommitteePage = ({ data, location }) => {
           the design of sessions for the 2020 United Nations World Data Forum
           across six thematic areas.
         </Text>
-      )}
+      }
+      data={data}
+      pageContext={{ collection: 'profiles', lang: 'en' }}
+      location={location}
     />
   );
 };
@@ -42,10 +39,24 @@ export const query = graphql`
   query {
     allProfile(
       sort: { fields: [lastName, firstName], order: ASC }
-      filter: { roles: { in: "Programme Committee Member" } }
+      filter: {
+        roles: { in: "Programme Committee Member" }
+        collection: { eq: "profiles" }
+      }
     ) {
       nodes {
-        ...Profile
+        id
+        avatar {
+          childImageSharp {
+            fixed(height: 128, width: 128) {
+              ...GatsbyImageSharpFixed_withWebp
+            }
+          }
+        }
+        honorific
+        name
+        jobtitle
+        organization
         path
       }
     }

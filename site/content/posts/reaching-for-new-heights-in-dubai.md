@@ -1,6 +1,6 @@
 ---
 title: 'UN World Data Forum: Reaching for new heights in Dubai'
-date: 2018-10-19 08:25:15
+date: 2018-10-19
 authors:
   - francesca-perucci
 ---

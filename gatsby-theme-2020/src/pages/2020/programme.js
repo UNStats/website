@@ -57,14 +57,12 @@ const ProgrammePage = ({ data }) => {
             <ColorCard
               key={id}
               color={color}
-              title={() => (
-                <>
-                  <Heading as="h2" sx={{ mb: 2 }}>{`${id} ${title}`}</Heading>
-                  <Text>{subtitle}</Text>
-                </>
-              )}
+              title={
+                <Heading as="h2" sx={{ mb: 2 }}>{`${id} ${title}`}</Heading>
+              }
+              subtitle={<Text>{subtitle}</Text>}
             >
-              {() => <MDXRenderer>{body}</MDXRenderer>}
+              <MDXRenderer>{body}</MDXRenderer>
             </ColorCard>
           ))}
         </Grid>

@@ -6,29 +6,24 @@ module.exports = {
       'The third United Nations World Data Forum will be hosted by the Swiss Confederation, with substantive support from the Swiss Federal Statistical Office, from 18–21 October 2020 in Bern, Switzerland.',
   },
   plugins: [
-    {
-      resolve: 'gatsby-theme-profiles',
-      options: {},
-    },
-    {
-      resolve: 'gatsby-theme-2020',
-      options: {},
-    },
+    'gatsby-theme-profiles',
+    'gatsby-theme-2020',
     {
       resolve: '@undataforum/gatsby-theme-blog',
       options: {
         basePath: '/blog',
-        description:
-          'Blog authored by the United Nations World Data Forum community.',
+        // contentPath: 'content/posts',
+        assetPath: 'content/assets/posts',
+        profiles: 'profiles',
       },
     },
     {
       resolve: '@undataforum/gatsby-theme-events',
       options: {
         basePath: '/webinars',
-        title: 'Webinars',
-        description:
-          'Webinars in preparation of the 2020 United Nations World Data Forum.',
+        // contentPath: 'content/events',
+        assetPath: 'content/assets/events',
+        profiles: 'profiles',
       },
     },
     {
