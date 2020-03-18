@@ -1,6 +1,6 @@
 ---
 title: Data to change lives and save lives
-date: 2018-10-12 18:57:23
+date: 2018-10-12
 authors:
   - pierre-wielezynski
 ---

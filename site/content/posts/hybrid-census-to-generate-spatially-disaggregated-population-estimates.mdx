@@ -1,13 +1,14 @@
 ---
 title: Hybrid census to generate spatially-disaggregated population estimates
-date: 2018-10-08 19:46:13
+date: 2018-10-08
 authors:
   - bahadur-hellali
 images:
   - ../assets/posts/HybridCensusAFG.jpg
 ---
 
-import { Image } from '@undataforum/gatsby-theme-blog';
+import Img from 'gatsby-image';
+import { Box } from 'theme-ui';
 
 Housing census data and up-to-date population data at subnational levels are
 some of the basic data needs any country should possess to ensure efficient
@@ -71,11 +72,13 @@ population data were previously available, and it was possible to generate high
 resolution maps of population estimates disaggregated by age and sex, together
 with uncertainty metrics.
 
-<Image
-  fluid={props.images[0]}
-  title="Figure 1. Satellite imagery of a rural area of Afghanistan."
-  alt="(left) High resolution satellite imagery of a rural area of Afghanistan; (right) Settlement areas detected automatically by computer algorithms."
-/>
+<Box mb={3}>
+  <Img
+    fluid={props.images[0]}
+    title="Figure 1. Satellite imagery of a rural area of Afghanistan."
+    alt="(left) High resolution satellite imagery of a rural area of Afghanistan; (right) Settlement areas detected automatically by computer algorithms."
+  />
+</Box>
 
 > **Figure 1. Satellite imagery of a rural area of Afghanistan.** _(left) High
 > resolution satellite imagery of a rural area of Afghanistan; (right)

@@ -6,8 +6,8 @@ module.exports = {
         basePath: '/profiles',
         contentPath: `${__dirname}/content/profiles`,
         assetPath: `${__dirname}/content/assets`,
-        description:
-          'Profiles of United Nations World Data Forum speakers, contributors, programme committee members and organizers.',
+        // collection: 'profiles',
+        postCollection: 'blog',
       },
     },
   ],

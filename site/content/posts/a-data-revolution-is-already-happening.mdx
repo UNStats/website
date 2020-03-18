@@ -7,7 +7,8 @@ images:
   - ../assets/posts/geocensos.jpg
 ---
 
-import { Image } from '@undataforum/gatsby-theme-blog';
+import { Box } from 'theme-ui';
+import Img from 'gatsby-image';
 
 The first Forum was a great opportunity for geospatial communities to build more
 fruitful dialogues and action toward a central, committed goal of "leaving no
@@ -20,13 +21,6 @@ to lead in promoting synergies across data ecosystems. This thematic area is
 crucial to deliver the revolutionary message of the 2030 Agenda, and to actively
 allow the inclusion of third-party data and innovative practices to strengthen
 existing national data ecosystems.
-
-> _The United Nations World Data Forum is a global event, a gigantic magnet for
-> a myriad of data experts in the development realm. Organized by the United
-> Nations Statistics Division and hosted by the
-> [Federal Competitiveness and Statistics Authority of the United Arab Emirates](https://fcsa.gov.ae/en-us)
-> and the Government of the UAE, the 2018 Forum will take place in Dubai, 22-24
-> October._
 
 ## How geospatial communities help promote innovations and synergies across data ecosystems?
 
@@ -62,11 +56,13 @@ These new data producers are taking to the next level collaborative and
 data-focused projects, together with opening and enriching the production of the
 collected data, adding valuable disaggregated sources.
 
-<Image
-  fluid={props.images[0]}
-  title="Geocensos: We map together a better World"
-  alt="Geocensos: We map together a better World.)"
-/>
+<Box mb={3}>
+  <Img
+    fluid={props.images[0]}
+    title="GeoCensos: We map together a better World."
+    alt="Group photo of the GeoCensos team."
+  />
+</Box>
 
 The geo-referenced tools that civic mappers bring to the table are increasingly
 demonstrating their value to contribute to a broader SDG data infrastructure:

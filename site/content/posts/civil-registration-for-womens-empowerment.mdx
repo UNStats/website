@@ -8,7 +8,8 @@ images:
   - ../assets/posts/empower-women-and-girls.jpg
 ---
 
-import { Image } from '@undataforum/gatsby-theme-blog';
+import Img from 'gatsby-image';
+import { Box } from 'theme-ui';
 
 On February 26th, the
 [Centre of Excellence for Civil Registration and Vital Statistics (CRVS) Systems](https://crvssystems.ca/)
@@ -38,11 +39,13 @@ also makes it easier for women to access crucial services such as health,
 education, political representation, and to lay claim to inheritance and/or
 property rights.
 
-<Image
-  fluid={props.images[0]}
-  title="Empower women and girls"
-  alt="Proof of marriage registration can affirm a woman's legal status, protecting her rights to inheritance after the death of a parent or spouse. Legal proof of age and identity can also help reduce child marriage and tackle associated health crises resulting from early pregnancies."
-/>
+<Box mb={3}>
+  <Img
+    fluid={props.images[0]}
+    title="Empower women and girls"
+    alt="Proof of marriage registration can affirm a woman's legal status, protecting her rights to inheritance after the death of a parent or spouse. Legal proof of age and identity can also help reduce child marriage and tackle associated health crises resulting from early pregnancies."
+  />
+</Box>
 
 The impacts of a well-functioning system are beyond that of only the individual.
 CRVS play a key role in assisting countries to measure and to meet their SDGs:

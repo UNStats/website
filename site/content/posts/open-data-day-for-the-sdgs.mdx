@@ -1,6 +1,6 @@
 ---
 title: 'Open Data Day for the SDGs'
-date: 2018-04-30 16:45:54
+date: 2018-04-30
 authors:
   - richard-crespin
 images:
@@ -8,7 +8,8 @@ images:
   - ../assets/posts/CollaborateUp2.jpg
 ---
 
-import { Image } from '@undataforum/gatsby-theme-blog';
+import Img from 'gatsby-image';
+import { Box } from 'theme-ui';
 
 Two people go searching for a partner online. They come across each other's
 profiles. Though they come from very different backgrounds, their profiles line
@@ -33,11 +34,13 @@ data to tackle the United Nations Sustainable Development Goals (SDGs). The
 event was held in the spirit of the _United Nations World Data Forum_, which
 will convene its next session in Dubai in October 2018.
 
-<Image
-  fluid={props.images[0]}
-  title="Open Data Bay Area meetup."
-  alt="Mini-hackathon brought together data scientists, engineers and civil society pros to hack on using open data to tackle the United Nations Sustainable Development Goals."
-/>
+<Box mb={3}>
+  <Img
+    fluid={props.images[0]}
+    title="Open Data Bay Area meetup."
+    alt="Mini-hackathon brought together data scientists, engineers and civil society pros to hack on using open data to tackle the United Nations Sustainable Development Goals."
+  />
+</Box>
 
 ## Independent Expert and Advisory Group
 
@@ -69,12 +72,13 @@ global issue and one hyper-local issue to hack on:
 - Mapping and matchmaking for SDG-related partners
 - Providing free Internet access for children outside of school in Oakland
 
-<Image
-  fluid={props.images[1]}
-  title="CollaborateUp Formula Working group team."
-  alt="CollaborateUp Formula Working group Breaking into teams and using the CollaborateUp Formula, each team had an afternoon to scope their problem,
-identify data sets and develop a pitch to share with the group."
-/>
+<Box mb={3}>
+  <Img
+    fluid={props.images[1]}
+    title="CollaborateUp Formula Working group team."
+    alt="CollaborateUp Formula Working group breaking into teams and using the CollaborateUp formula, each team had an afternoon to scope their problem, identify data sets and develop a pitch to share with the group."
+  />
+</Box>
 
 ## CollaborateUp Formula Working group
 

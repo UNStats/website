@@ -1,6 +1,6 @@
 ---
 title: 'Producing reliable data for SDG 16: The case of conflict data'
-date: 2018-07-10 15:18:23
+date: 2018-07-10
 authors:
   - havard-mokleiv-nygard
 ---

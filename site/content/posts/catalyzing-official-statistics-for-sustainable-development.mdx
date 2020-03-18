@@ -10,7 +10,8 @@ images:
   - ../assets/posts/NSO_dataUsage.jpg
 ---
 
-import { Image } from '@undataforum/gatsby-theme-blog';
+import Img from 'gatsby-image';
+import { Box } from 'theme-ui';
 
 The first United Nations World Data Forum launched the
 [Cape Town Global Action Plan for Sustainable Development Data (CTGAP)](https://unstats.un.org/sdgs/hlg/cape-town-global-action-plan/),
@@ -42,11 +43,13 @@ The national statistical system - NSOs and other agencies designated to collect,
 compile and disseminate official statistics — is central to making progress on
 its six strategic areas (Figure 1).
 
-<Image
-  fluid={props.images[0]}
-  title="Figure 1: Six strategic areas of the Cape Town Global Action Plan"
-  alt="Six strategic areas of the Cape Town Global Action Plan: (1) Coordination and strategic leadership on data for sustainable development; (2) Innovation and modernization of national statistical systems; (3) Strengthening of basic statistical activities and programmes, with particular focus on addressing the monitoring needs of the 2030 Agenda; (4) Dissemination and use of sustainable development data; (5) Multi-stakeholder partnerships for sustainable development data; (6) Mobilize resources and coordinate efforts for statistical capacity building."
-/>
+<Box mb={3}>
+  <Img
+    fluid={props.images[0]}
+    title="Figure 1: Six strategic areas of the Cape Town Global Action Plan."
+    alt="Six strategic areas of the Cape Town Global Action Plan: (1) Coordination and strategic leadership on data for sustainable development; (2) Innovation and modernization of national statistical systems; (3) Strengthening of basic statistical activities and programmes, with particular focus on addressing the monitoring needs of the 2030 Agenda; (4) Dissemination and use of sustainable development data; (5) Multi-stakeholder partnerships for sustainable development data; (6) Mobilize resources and coordinate efforts for statistical capacity building."
+  />
+</Box>
 
 However, despite the increased demand for development data from NSOs, there are
 [barriers that limit the full potential of official statistics](https://www.aiddata.org/publications/avoiding-data-graveyards-insights-from-data-producers-users-in-three-countries)
@@ -88,11 +91,13 @@ also chose this as their preferred way (Figure 2)._ This suggests that NSOs that
 do not currently monitor data use would appreciate support in using web
 analytics for their data portals or websites hosting official statistics.
 
-<Image
-  fluid={props.images[1]}
-  title="Figure 2: Current ways that NSOs monitor the use of data they produce"
-  alt=""
-/>
+<Box mb={3}>
+  <Img
+    fluid={props.images[1]}
+    title="Figure 2: Current ways that NSOs monitor the use of data they produce."
+    alt="Bar chart with current 7 ways that NSOs monitor the use of data they produce."
+  />
+</Box>
 
 _Note_: This figure is based on the question: How do you measure the use of data
 produced by NSOs? The question was only asked to those respondents that said

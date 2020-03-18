@@ -1,6 +1,6 @@
 ---
 title: Making statistics sexy
-date: 2017-01-11 12:36:53
+date: 2017-01-11
 authors:
   - pim-bellinga
   - thijs-gillebaart
@@ -8,7 +8,8 @@ images:
   - ../assets/posts/california-autism-prevalence-big.jpg
 ---
 
-import { Image } from '@undataforum/gatsby-theme-blog';
+import Img from 'gatsby-image';
+import { Box } from 'theme-ui';
 
 We are [ _ I Hate Statistics _ ](https://www.ihatestatistics.com/index.php), two
 social entrepreneurs from Amsterdam who like solving problems. We have set
@@ -60,11 +61,13 @@ Vaccines are an absolute success story of public health
 Yet due to a lack of critical interpretation of data, a lot of people now
 believe that vaccines _ cause _ autism.
 
-<Image
-  fluid={props.images[0]}
-  title="The evolution of national statistical systems."
-  alt="The 5 elements of the evolution of national statistical systems: assessment of readiness, new e-learning platforms, training programs, human resources and information technology, and mobilization of resources."
-/>
+<Box mb={3}>
+  <Img
+    fluid={props.images[0]}
+    title="The evolution of national statistical systems."
+    alt="The 5 elements of the evolution of national statistical systems: assessment of readiness, new e-learning platforms, training programs, human resources and information technology, and mobilization of resources."
+  />
+</Box>
 
 ##### Source:[ https://www.safeminds.org/mercury-autism/vaccines-and-autism/correlation-between-increases-in-autism-prevalence-and-introduction-of-new-vaccines/](https://www.safeminds.org/mercury-autism/vaccines-and-autism/correlation-between-increases-in-autism-prevalence-and-introduction-of-new-vaccines/)
 

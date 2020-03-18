@@ -8,7 +8,8 @@ images:
   - ../assets/posts/paris21Table.jpg
 ---
 
-import { Image } from '@undataforum/gatsby-theme-blog';
+import Img from 'gatsby-image';
+import { Box } from 'theme-ui';
 
 These days, keynote addresses on the Sustainable Development Goals (SDGs) often
 end with the call to strengthen the capacity of national data ecosystem actors,
@@ -43,17 +44,19 @@ education and health to data and statistics. The following table summarises
 general trends of such change and how this could be applied to the data and
 statistics sector.
 
-<Image
-  fluid={props.images[0]}
-  title="Figure 1. Shifts in the understanding of capacity development (examples). Adapted from: Capacity Development Strategy, UNECA 2014."
-  alt="The implementation of the SDGs requires a boost in capacity across the board,
+<Box mb={3}>
+  <Img
+    fluid={props.images[0]}
+    title="Figure 1. Shifts in the understanding of capacity development (examples). Adapted from: Capacity Development Strategy, UNECA 2014."
+    alt="The implementation of the SDGs requires a boost in capacity across the board,
 starting with the data and statistics sector. The goals not only require
 responsive official statistical systems that are able to measure and track
 national progress across a much broader spectrum of development outcomes and
 processes, but also the building of national data ecosystems where data users,
 such as academia, civil society and business, play an increasing role in data
 production."
-/>
+  />
+</Box>
 
 ## Building the foundations for capacity development
 
@@ -79,11 +82,13 @@ of data. For the countries without a strategy, either because it is expired or
 absent, extra efforts are needed to understand their specific situation and
 which approaches for implementation in their national context could work best.
 
-<Image
-  fluid={props.images[1]}
-  title="Table 1. NSDS status in IDA countries as of January 2016"
-  alt="NSDS status in IDA countries as of January 2016"
-/>
+<Box mb={3}>
+  <Img
+    fluid={props.images[1]}
+    title="Table 1. NSDS status in IDA countries as of January 2016."
+    alt="An image of a table that shows the NSDS status in IDA countries as of January 2016."
+  />
+</Box>
 
 ## Launching Capacity Development 4.0
 

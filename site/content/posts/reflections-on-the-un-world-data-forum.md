@@ -1,6 +1,6 @@
 ---
 title: Reflections on the United Nations World Data Forum
-date: 2016-11-22 20:23:49
+date: 2016-11-22
 authors:
   - niels-ploug
 ---

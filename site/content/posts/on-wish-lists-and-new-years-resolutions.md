@@ -1,6 +1,6 @@
 ---
 title: "On wish lists and New Year's resolutions"
-date: 2017-01-02 07:45:39
+date: 2017-01-02
 authors:
   - emily-garin
 ---

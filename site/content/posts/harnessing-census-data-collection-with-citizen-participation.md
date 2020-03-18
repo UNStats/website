@@ -1,6 +1,6 @@
 ---
 title: Harnessing census data collection with citizen participation
-date: 2016-12-19 16:24:54
+date: 2016-12-19
 authors:
   - javier-carranza
 ---

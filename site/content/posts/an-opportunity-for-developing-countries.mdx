@@ -9,7 +9,8 @@ images:
   - ../assets/posts/evolution-of-national-statistical-systems.png
 ---
 
-import { Image } from '@undataforum/gatsby-theme-blog';
+import Img from 'gatsby-image';
+import { Box } from 'theme-ui';
 
 At the conclusion of the first United Nations World Data Forum in Cape Town next
 month, the
@@ -75,11 +76,13 @@ offices responsible of dealing with "cross-cutting services" (e.g.,
 methodological development, quality assurance, data collection and
 dissemination, etc.).
 
-<Image
-  fluid={props.images[0]}
-  title="The evolution of national statistical systems."
-  alt="The 5 elements of the evolution of national statistical systems: assessment of readiness, new e-learning platforms, training programs, human resources and information technology, and mobilization of resources."
-/>
+<Box mb={3}>
+  <Img
+    fluid={props.images[0]}
+    title="The evolution of national statistical systems."
+    alt="The 5 elements of the evolution of national statistical systems: assessment of readiness, new e-learning platforms, training programs, human resources and information technology, and mobilization of resources."
+  />
+</Box>
 
 The implementation of the SDGs is a clear opportunity for the transformation and
 modernization of national statistical systems, based on the development of
