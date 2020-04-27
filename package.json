@@ -5,15 +5,12 @@
     "gatsby-theme-profiles",
     "gatsby-theme-2020"
   ],
-  "engines": {
-    "node": "12.x"
-  },
   "scripts": {
     "start": "yarn workspace site run develop",
     "build": "rm -rf public && yarn workspace site run build && mv site/public/ public",
     "clean": "yarn workspace site run clean",
     "lint": "yarn run lint:code && yarn run lint:other",
-    "lint:code": "eslint . --cache --ext .js,.jsx --ignore-path .gitignore",
+    "lint:code": "eslint . --ignore-path .gitignore",
     "lint:other": "yarn run prettier --check",
     "prettier": "prettier \"**/*.{md,mdx,css,yaml,yml}\" --ignore-path .gitignore",
     "format": "yarn run format:code && yarn run format:other",
@@ -29,8 +26,8 @@
   "devDependencies": {
     "eslint": "6.8.0",
     "eslint-plugin-shopify": "35.0.0",
-    "husky": "4.2.3",
-    "lint-staged": "10.0.8",
+    "husky": "4.2.5",
+    "lint-staged": "10.1.7",
     "now": "18.0.0",
     "prettier": "1.19.1"
   }
