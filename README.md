@@ -1,3 +1,5 @@
+[![Open in CodeSandbox](https://img.shields.io/badge/Open%20in-CodeSandbox-blue?style=flat-square&logo=codesandbox)](https://githubbox.com/UNDataForum/website)
+
 # United Nations World Data Forum website
 
 This is the repository for https://undataforum.org. This is a monorepo that
