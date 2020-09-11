@@ -1,3 +1,5 @@
+const path = require('path');
+
 module.exports = {
   plugins: [
     '@undataforum/gatsby-theme-base',
@@ -5,7 +7,7 @@ module.exports = {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'thematic-area',
-        path: `${__dirname}/content/thematic-areas`,
+        path: path.join(__dirname, 'content', 'thematic-areas'),
       },
     },
   ],
