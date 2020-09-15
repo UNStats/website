@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "gatsby-theme-profiles",
+  "name": "profiles",
   "version": "0.0.0",
   "description": "Micro frontend for https://undataforum.org/profiles.",
   "main": "index.js",

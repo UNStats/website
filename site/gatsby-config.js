@@ -16,7 +16,7 @@ module.exports = {
     siteUrl: pkg.homepage,
   },
   plugins: [
-    'gatsby-theme-profiles',
+    'profiles',
     'gatsby-theme-2020',
     {
       resolve: '@undataforum/gatsby-theme-blog',
