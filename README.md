@@ -1,8 +1,7 @@
 # United Nations World Data Forum website
 
-This is the repository for the new United Nations World Data Forum website
-https://undataforum.org. This is a monorepo that contains the following
-workspaces that manage parts of [undataforum.org](https://undataforum.org):
+This is the repository for the new United Nations World Data Forum website (not
+yet launched). This is a monorepo that contains the following workspaces:
 
 | Workspace               | Description                                                    |
 | :---------------------- | :------------------------------------------------------------- |
