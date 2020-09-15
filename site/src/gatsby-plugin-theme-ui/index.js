@@ -6,6 +6,16 @@ const theme = merge(baseTheme, {
     body: 'Roboto, system-ui, sans-serif',
     heading: 'Roboto, system-ui, sans-serif',
   },
+  alerts: {
+    muted: {
+      color: 'background',
+      bg: 'muted',
+    },
+    accent: {
+      color: 'background',
+      bg: 'accent',
+    },
+  },
 });
 
 export default theme;

@@ -4,6 +4,7 @@ title:
 date: 2018-10-15
 authors:
   - pietro-bertazzi
+  - charlotte-portier
 ---
 
 On the quest to establish and adapt the current data ecosystems to reflect the
