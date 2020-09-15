@@ -1,11 +1,11 @@
 import React from 'react';
-import { shape, object } from 'prop-types';
+import { shape, string, object } from 'prop-types';
 import { graphql } from 'gatsby';
-import { Container, Grid, Heading, Styled, Text } from 'theme-ui';
-import { Layout, MDXRenderer } from '@undataforum/gatsby-theme-base';
-import { ColorCard, SmartLink } from '@undataforum/components';
+import { Container, Grid, Heading, Link, Styled, Text } from 'theme-ui';
+import { Layout, MDXRenderer, Seo } from '@undataforum/gatsby-theme-base';
+import { Card } from '@undataforum/components';
 
-const ProgrammePage = ({ data }) => {
+const ProgrammePage = ({ data, location }) => {
   const thematicAreas = data.allMdx.nodes.map(
     ({ frontmatter: { id, color, title, subtitle }, body }) => ({
       id,
@@ -16,10 +16,11 @@ const ProgrammePage = ({ data }) => {
     })
   );
   return (
-    <Layout
-      title="Programme"
-      description="Programme with six thematic areas for the United Nations World Data Forum 2020."
-    >
+    <Layout location={location}>
+      <Seo
+        title="Programme"
+        description="Programme with six thematic areas for the 2020 United Nations World Data Forum."
+      />
       <Container sx={{ maxWidth: 'width.narrow', px: [2, 3, 4] }}>
         <Styled.h1>Programme</Styled.h1>
         <Styled.p>
@@ -27,13 +28,13 @@ const ProgrammePage = ({ data }) => {
           around six thematic areas. It is designed to bring together
           representatives, users and producers from various sectors working with
           data to support the implementation of the{' '}
-          <SmartLink href="https://sustainabledevelopment.un.org/post2015/transformingourworld">
+          <Link href="https://sustainabledevelopment.un.org/post2015/transformingourworld">
             2030 Agenda for Sustainable Development
-          </SmartLink>{' '}
+          </Link>{' '}
           and the{' '}
-          <SmartLink href="https://sustainabledevelopment.un.org/sdgs">
+          <Link href="https://sustainabledevelopment.un.org/sdgs">
             Sustainable Development Goals
-          </SmartLink>
+          </Link>
           .
         </Styled.p>
         <Styled.p>
@@ -49,12 +50,12 @@ const ProgrammePage = ({ data }) => {
           spaces, innovation labs, workshops, knowledge sharing spaces, exhibits
           and virtual forums. The programme is developed through an open call
           for session proposals. The call for session proposals can be found{' '}
-          <SmartLink href="/2020/call-for-proposals">here</SmartLink> and closes
-          on 31 January 2020.
+          <Link href="/2020/call-for-proposals">here</Link> and closes on 31
+          January 2020.
         </Styled.p>
         <Grid gap={[3, 4]}>
           {thematicAreas.map(({ id, color, title, subtitle, body }) => (
-            <ColorCard
+            <Card
               key={id}
               color={color}
               title={
@@ -63,7 +64,7 @@ const ProgrammePage = ({ data }) => {
               subtitle={<Text>{subtitle}</Text>}
             >
               <MDXRenderer>{body}</MDXRenderer>
-            </ColorCard>
+            </Card>
           ))}
         </Grid>
       </Container>
@@ -73,6 +74,7 @@ const ProgrammePage = ({ data }) => {
 
 ProgrammePage.propTypes = {
   data: shape({ allMdx: object.isRequired }).isRequired,
+  location: shape({ pathname: string.isRequired }).isRequired,
 };
 
 export default ProgrammePage;

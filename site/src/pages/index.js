@@ -1,8 +1,8 @@
 import React from 'react';
-import { shape, object } from 'prop-types';
+import { object, shape, string } from 'prop-types';
 import { Button, Container, Flex, Grid, Heading, Styled, Text } from 'theme-ui';
 import { EventPreview, Names, PostPreview } from '@undataforum/components';
-import { Layout, MDXRenderer } from '@undataforum/gatsby-theme-base';
+import { Layout, MDXRenderer, Seo } from '@undataforum/gatsby-theme-base';
 import { graphql } from 'gatsby';
 import { createIntl, createIntlCache, RawIntlProvider } from 'react-intl';
 import { messages } from '@undataforum/gatsby-theme-events';
@@ -14,7 +14,7 @@ import Hero from '../components/hero';
 // If you change the hero image, you need to update the page query:
 // - update filename regex,
 // - update maxWidth to avoid blurry images.
-const Homepage = ({ data }) => {
+const Homepage = ({ data, location }) => {
   const posts = data.allPost.nodes;
   const events = data.allEvent.nodes;
 
@@ -32,7 +32,11 @@ const Homepage = ({ data }) => {
   return (
     // We would normally use `IntlProvider`, but we already have `intl` and therefore reuse it with RawIntlProvider.
     <RawIntlProvider value={intl}>
-      <Layout title="Homepage" description={data.site.siteMetadata.description}>
+      <Layout location={location}>
+        <Seo
+          title="Homepage"
+          description={data.site.siteMetadata.description}
+        />
         <Hero
           fluid={data.hero.nodes[0].fluid}
           title="View of Bern, Switzerland"
@@ -79,10 +83,8 @@ const Homepage = ({ data }) => {
                 registrationLink: events[0].registrationLink,
                 href: events[0].path,
               }}
-              variant="promotion"
             />
           }
-          mt={-3}
           mb={[4, 5]}
         />
         <About mb={[4, 5]} />
@@ -99,7 +101,7 @@ const Homepage = ({ data }) => {
               const {
                 id,
                 collection,
-                title,
+                title: { text: title },
                 displayDate,
                 duration,
                 path,
@@ -107,11 +109,12 @@ const Homepage = ({ data }) => {
               } = event;
               return (
                 <EventPreview
+                  key={id}
                   event={{
                     tag: intl.formatMessage({ id: `${collection}.tag` }),
                     title: (
                       <Heading as="h2" sx={{ textAlign: 'start', mb: 3 }}>
-                        {title.text}
+                        {title}
                       </Heading>
                     ),
                     date: displayDate,
@@ -119,7 +122,6 @@ const Homepage = ({ data }) => {
                     registrationLink,
                     href: path,
                   }}
-                  key={id}
                 />
               );
             })}
@@ -165,6 +167,7 @@ Homepage.propTypes = {
     allPost: object.isRequired,
     allEvent: object.isRequired,
   }).isRequired,
+  location: shape({ pathname: string.isRequired }).isRequired,
 };
 
 export default Homepage;

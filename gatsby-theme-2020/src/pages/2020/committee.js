@@ -1,32 +1,28 @@
 import React from 'react';
 import { object, shape, string } from 'prop-types';
 import { graphql } from 'gatsby';
-import { ProfilesPage } from '@undataforum/gatsby-theme-profiles';
+import ProfilesPage from '@undataforum/gatsby-theme-profiles/src/components/profiles-page';
 import { Text } from 'theme-ui';
 
-// title="2020 Programme Committee"
-// description="Members of the 2020 United Nations World Data Forum 2020 programme committee."
-
-const CommitteePage = ({ data, location }) => {
-  return (
-    <ProfilesPage
-      blurb={
-        <Text sx={{ mb: 3 }}>
-          A wide range of partners from governments, private sector, civil
-          society, the United Nations system, and the scientific and academic
-          communities collaborate in the organization of the United Nations
-          World Data Forum. A programme committee, composed of experts and
-          leaders from diverse stakeholder groups, is responsible for guiding
-          the design of sessions for the 2020 United Nations World Data Forum
-          across six thematic areas.
-        </Text>
-      }
-      data={data}
-      pageContext={{ collection: 'profiles', lang: 'en' }}
-      location={location}
-    />
-  );
-};
+const CommitteePage = ({ data, location }) => (
+  // console.log(data) ||
+  <ProfilesPage
+    blurb={
+      <Text sx={{ mb: 3 }}>
+        A wide range of partners from governments, private sector, civil
+        society, the United Nations system, and the scientific and academic
+        communities collaborate in the organization of the United Nations World
+        Data Forum. A programme committee, composed of experts and leaders from
+        diverse stakeholder groups, is responsible for guiding the design of
+        sessions for the 2020 United Nations World Data Forum across six
+        thematic areas.
+      </Text>
+    }
+    data={data}
+    pageContext={{ collection: 'profiles', lang: 'en' }}
+    location={location}
+  />
+);
 
 CommitteePage.propTypes = {
   data: shape({ allProfile: object.isRequired }).isRequired,
