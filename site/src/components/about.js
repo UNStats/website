@@ -1,44 +1,41 @@
 import React from 'react';
-import { Container, Text } from 'theme-ui';
-import { SmartLink } from '@undataforum/components';
+import { Container, Link, Text } from 'theme-ui';
 
 const About = ({ ...props }) => (
   <Container
     {...props}
     sx={{
-      maxWidth: 'width.narrow',
+      maxWidth: 'layout.narrow',
       fontSize: 3,
       textAlign: 'center',
-      px: [2, 3, 4],
     }}
   >
     <Text sx={{ mb: 3 }}>
       The third United Nations World Data Forum will be hosted by the{' '}
-      <SmartLink href="https://www.admin.ch/gov/en/start.html">
+      <Link href="https://www.admin.ch/gov/en/start.html">
         Swiss Confederation
-      </SmartLink>{' '}
+      </Link>{' '}
       with substantive support from the{' '}
-      <SmartLink href="https://www.bfs.admin.ch/bfs/en/home.html">
+      <Link href="https://www.bfs.admin.ch/bfs/en/home.html">
         Swiss Federal Statistical Office
-      </SmartLink>{' '}
+      </Link>{' '}
       from 18–21 October 2020 in Bern, Switzerland.
     </Text>
     <Text>
       Supported by the{' '}
-      <SmartLink href="https://unstats.un.org/">Statistics Division</SmartLink>{' '}
-      of the{' '}
-      <SmartLink href="https://www.un.org/development/desa/en/">
+      <Link href="https://unstats.un.org/">Statistics Division</Link> of the{' '}
+      <Link href="https://www.un.org/development/desa/en/">
         United Nations Department of Economic and Social Affairs
-      </SmartLink>
+      </Link>
       , under the guidance of the{' '}
-      <SmartLink href="https://unstats.un.org/unsd/statcom/">
+      <Link href="https://unstats.un.org/unsd/statcom/">
         United Nations Statistical Commission
-      </SmartLink>{' '}
+      </Link>{' '}
       and the{' '}
-      <SmartLink href="https://unstats.un.org/sdgs/hlg/">
+      <Link href="https://unstats.un.org/sdgs/hlg/">
         High-level Group for Partnership, Coordination and Capacity-Building for
         Statistics for the 2030 Agenda for Sustainable Development
-      </SmartLink>
+      </Link>
       .
     </Text>
   </Container>
