@@ -1,29 +1,38 @@
 ---
 firstName: Mark
 lastName: Hereward
-jobtitle: Associate Director for Data and
-Analytics organization: UNICEF
+jobtitle: Associate Director for Data and Analytics
+organization: UNICEF
 avatar: ../assets/mark-hereward.jpg
 ---
 
-Mark Hereward is Associate Director for Data and Analytics for
-[UNICEF](https://www.unicef.org/), leading a team who support collection,
-assessment, storage, analysis and communication of data concerning the situation
-of children.
+Since 2017, Mark Hereward has been leading the team which collects, assesses,
+analyses, stores and makes public data and statistics concerning the situation
+of children and women.
 
-Data collection includes the
-[Multiple-Indicator Cluster Survey programme](https://www.unicef.org/statistics/index_24302.html)
-which has been running for 20 years, as well as harvesting data from other
-surveys, administrative and other sources. The data are published on the UNICEF
-website, in the tables of
-[State of the World's Children report](https://www.unicef.org/sowc/), and are
-used in analytical reports.
+Prior to this he was Deputy Regional Director for
+[UNICEF Eastern and Southern Africa](https://www.unicef.org/esa/) for three
+years, leading the programmatic support to twentyone country offices in the
+region, following five years as UNICEF Representative in Azerbaijan, leading a
+country programme with particular emphasis on supporting the rights of children
+with disabilities, and enhancing the voice of adolescents and young people in
+decisions that affect their lives.
 
-The section also assesses data on the seventeen SDG indicators for which UNICEF
-is joint or single custodian, to give internationally-comparable high-quality
-data on SDG reporting, stores them and transmits them to the
-[United Nations Statistics Division](https://unstats.un.org/home/) for the
-global SDG progress reports. And he oversees the work to support UNICEF's 130
-Country Offices in their efforts to build capacity and provide technical
-assistance to government and civil society on monitoring the situation of
-children.
+From June 2004 to July 2009, Mark served in senior positions at UNICEF
+Headquarters to lead UNICEF’s work on UN Coherence, providing strategic
+direction to the organization at global, regional and country levels. He has
+been working for UNICEF since 1995, when he joined to be the first
+[MICS](https://mics.unicef.org/) Global Coordinator.
+
+Prior to joining [UNICEF](https://www.unicef.org/), Mark worked as Field Based
+Post-Doctoral Research Fellow and Consultant for the
+[Rockefeller Foundation](https://rockfound.rockarch.org/home) in China. He also
+held a Post-Doctoral Research Fellowship at the
+[Carolina Population Centre](https://www.cpc.unc.edu/), USA.
+
+He has a Bachelor’s degree in Chinese and Economics from the School of Oriental
+and African Studies, a Master's degree in Medical Demography from the School of
+Hygiene and Tropical Medicine, both from
+[London University](https://london.ac.uk/), UK, and a Master's Degree and a PhD
+in Demography from the
+[University of Pennsylvania](https://home.www.upenn.edu/), USA.
