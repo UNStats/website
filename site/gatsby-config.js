@@ -16,8 +16,10 @@ module.exports = {
     siteUrl: pkg.homepage,
   },
   plugins: [
-    'profiles',
+    // Micro frontend for /2020.
     'gatsby-theme-2020',
+    // Micro frontend for /profiles.
+    'gatsby-theme-profiles',
     {
       resolve: '@undataforum/gatsby-theme-blog',
       options: {
