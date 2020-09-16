@@ -2,8 +2,7 @@
   "private": true,
   "workspaces": [
     "site",
-    "microfrontends/*",
-    "gatsby-theme-2020"
+    "microfrontends/*"
   ],
   "scripts": {
     "prettier": "prettier . --ignore-path .gitignore",

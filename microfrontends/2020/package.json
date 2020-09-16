@@ -2,7 +2,7 @@
   "private": true,
   "name": "gatsby-theme-2020",
   "version": "0.0.0",
-  "description": "Micro frontend for https://undataforum.org/2020.",
+  "description": "Micro frontend for /2020.",
   "main": "index.js",
   "author": "Thilo Maier <maier@un.org>",
   "scripts": {
